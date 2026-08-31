@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useExerciseStore } from '../../../application/store/exercise-store.ts';
 import { LanguageToggle } from './LanguageToggle.tsx';
+import { CinemagraphViewer } from './CinemagraphViewer.tsx';
 import { X, Activity, Target, ShieldCheck } from 'lucide-react';
 
 export const ExerciseModal: React.FC = () => {
-  const { isDetailOpen, selectedExercise, closeExerciseDetail, language } = useExerciseStore();
-  const [gifLoaded, setGifLoaded] = useState(false);
-  const [gifError, setGifError] = useState(false);
+  const { isDetailOpen, selectedExercise, closeExerciseDetail, language } =
+    useExerciseStore();
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -28,16 +28,15 @@ export const ExerciseModal: React.FC = () => {
     };
   }, [isDetailOpen, closeExerciseDetail]);
 
-  useEffect(() => {
-    setGifLoaded(false);
-    setGifError(false);
-  }, [selectedExercise?.id]);
-
   if (!isDetailOpen || !selectedExercise) {
     return null;
   }
 
-  const instructions = selectedExercise.instructions[language] || selectedExercise.instructions.es || selectedExercise.instructions.en || [];
+  const instructions =
+    selectedExercise.instructions[language] ||
+    selectedExercise.instructions.es ||
+    selectedExercise.instructions.en ||
+    [];
 
   return (
     <div className="fixed inset-0 z-50 flex items-end md:items-center justify-center p-0 md:p-4 bg-black/80 backdrop-blur-sm animate-fadeIn">
@@ -61,7 +60,9 @@ export const ExerciseModal: React.FC = () => {
             <span className="p-1.5 bg-emerald-500/10 text-emerald-400 rounded-lg">
               <Activity className="w-5 h-5" />
             </span>
-            <span className="text-xs font-mono text-zinc-400">ID #{selectedExercise.id}</span>
+            <span className="text-xs font-mono text-zinc-400">
+              ID #{selectedExercise.id}
+            </span>
           </div>
 
           <div className="flex items-center gap-2">
@@ -78,33 +79,12 @@ export const ExerciseModal: React.FC = () => {
 
         {/* Scrollable Modal Body */}
         <div className="overflow-y-auto p-5 space-y-5 text-zinc-100">
-          {/* Animated GIF Container (Zero Layout Shift Box) */}
-          <div className="relative w-full aspect-[4/3] sm:aspect-video bg-zinc-950 rounded-2xl overflow-hidden border border-zinc-800/80 flex items-center justify-center shadow-inner">
-            {!gifLoaded && !gifError && (
-              <div className="absolute inset-0 bg-zinc-950 flex flex-col items-center justify-center gap-2 text-zinc-500 animate-pulse">
-                <div className="w-8 h-8 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin" />
-                <span className="text-xs font-medium">Cargando animación...</span>
-              </div>
-            )}
-
-            {gifError ? (
-              <div className="absolute inset-0 bg-zinc-950 flex flex-col items-center justify-center text-zinc-500 text-xs p-4 text-center">
-                <p>No se pudo cargar la animación animada.</p>
-              </div>
-            ) : (
-              <img
-                src={selectedExercise.gifUrl}
-                alt={selectedExercise.name}
-                loading="eager"
-                decoding="async"
-                onLoad={() => setGifLoaded(true)}
-                onError={() => setGifError(true)}
-                className={`w-full h-full object-contain transition-opacity duration-300 ${
-                  gifLoaded ? 'opacity-100' : 'opacity-0'
-                }`}
-              />
-            )}
-          </div>
+          {/* Dual-Phase HD Cinemagraph Viewer (Zero Layout Shift Box) */}
+          <CinemagraphViewer
+            images={selectedExercise.images}
+            fallbackUrl={selectedExercise.gifUrl}
+            alt={selectedExercise.name}
+          />
 
           {/* Title & Metadata */}
           <div>
@@ -116,16 +96,25 @@ export const ExerciseModal: React.FC = () => {
             <div className="flex flex-wrap items-center gap-2">
               <div className="inline-flex items-center gap-1 px-3 py-1 bg-emerald-500/15 border border-emerald-500/30 rounded-lg text-emerald-400 text-xs font-semibold">
                 <Target className="w-3.5 h-3.5" />
-                <span>{language === 'es' ? 'Objetivo:' : 'Target:'} {selectedExercise.targetMuscle}</span>
+                <span>
+                  {language === 'es' ? 'Objetivo:' : 'Target:'}{' '}
+                  {selectedExercise.targetMuscle}
+                </span>
               </div>
 
               <div className="inline-flex items-center gap-1 px-3 py-1 bg-zinc-800/80 border border-zinc-700/60 rounded-lg text-zinc-300 text-xs font-medium capitalize">
-                <span>{language === 'es' ? 'Zona:' : 'Body part:'} {selectedExercise.bodyPart}</span>
+                <span>
+                  {language === 'es' ? 'Zona:' : 'Body part:'}{' '}
+                  {selectedExercise.bodyPart}
+                </span>
               </div>
 
               {selectedExercise.secondaryMuscles.length > 0 && (
                 <div className="inline-flex items-center gap-1 px-3 py-1 bg-zinc-800/80 border border-zinc-700/60 rounded-lg text-zinc-400 text-xs">
-                  <span>{language === 'es' ? 'Secundarios:' : 'Secondary:'} {selectedExercise.secondaryMuscles.join(', ')}</span>
+                  <span>
+                    {language === 'es' ? 'Secundarios:' : 'Secondary:'}{' '}
+                    {selectedExercise.secondaryMuscles.join(', ')}
+                  </span>
                 </div>
               )}
             </div>
@@ -135,7 +124,11 @@ export const ExerciseModal: React.FC = () => {
           <div className="bg-zinc-950/60 border border-zinc-800/80 rounded-2xl p-4.5 space-y-3">
             <h4 className="text-sm font-semibold uppercase tracking-wider text-zinc-300 flex items-center gap-1.5">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              <span>{language === 'es' ? 'Instrucciones paso a paso' : 'Step-by-step instructions'}</span>
+              <span>
+                {language === 'es'
+                  ? 'Instrucciones paso a paso'
+                  : 'Step-by-step instructions'}
+              </span>
             </h4>
 
             {instructions.length > 0 ? (
@@ -151,7 +144,9 @@ export const ExerciseModal: React.FC = () => {
               </ol>
             ) : (
               <p className="text-xs text-zinc-500 italic">
-                {language === 'es' ? 'Sin instrucciones disponibles para este idioma.' : 'No instructions available.'}
+                {language === 'es'
+                  ? 'Sin instrucciones disponibles para este idioma.'
+                  : 'No instructions available.'}
               </p>
             )}
           </div>

@@ -8,10 +8,12 @@ describe('StaticExerciseRepository', () => {
     repository = new StaticExerciseRepository();
   });
 
-  it('should load all 325 bodyweight exercises and classify them', async () => {
+  it('should load all 325 bodyweight exercises, classify them, and populate dual-frame images', async () => {
     const exercises = await repository.getAll();
     expect(exercises.length).toBe(325);
     expect(exercises[0].equipmentRequirement).toBeDefined();
+    expect(exercises[0].images).toBeDefined();
+    expect(exercises[0].images!.length).toBeGreaterThanOrEqual(2);
   });
 
   it('should find exercise by ID', async () => {

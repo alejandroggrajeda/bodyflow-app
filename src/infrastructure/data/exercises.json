@@ -27,7 +27,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/3_4_Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/3_4_Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "0002",
@@ -56,7 +60,11 @@
         "Repite del otro lado.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0002-Hy9D21L.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0002-Hy9D21L.gif"
+    ]
   },
   {
     "id": "0003",
@@ -85,7 +93,11 @@
         "Regresa a la posición inicial y repite el movimiento del lado opuesto, llevando el codo izquierdo hacia la rodilla derecha mientras estiras la pierna izquierda.",
         "Continúa alternando lados con un movimiento de pedaleo durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Air_Bike/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Air_Bike/1.jpg"
+    ]
   },
   {
     "id": "1512",
@@ -115,7 +127,11 @@
         "Mantén esta posición durante 20-30 segundos.",
         "Cambia de pierna y repite el estiramiento del otro lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Quad_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Quad_Stretch/1.jpg"
+    ]
   },
   {
     "id": "0006",
@@ -144,7 +160,11 @@
         "Regresa a la posición inicial y repite del lado izquierdo, llevando la mano izquierda hacia el talón izquierdo.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Alternate_Heel_Touchers/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Alternate_Heel_Touchers/1.jpg"
+    ]
   },
   {
     "id": "1368",
@@ -171,7 +191,11 @@
         "Realiza el número de círculos deseado en una dirección, luego cambia a la dirección contraria.",
         "Repite con la otra pierna."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ankle_Circles/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ankle_Circles/1.jpg"
+    ]
   },
   {
     "id": "3293",
@@ -203,7 +227,11 @@
         "Bájate de nuevo con control, estirando el brazo flexionado y repitiendo el movimiento del otro lado.",
         "Alterna los lados en cada repetición."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3293-72BC5Za.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3293-72BC5Za.gif"
+    ]
   },
   {
     "id": "3294",
@@ -236,7 +264,11 @@
         "Repite del otro lado, extendiendo el brazo opuesto hacia el lado.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3294-A9qxk2F.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3294-A9qxk2F.gif"
+    ]
   },
   {
     "id": "2355",
@@ -264,7 +296,11 @@
         "Baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2355-uWpxD4v.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2355-uWpxD4v.gif"
+    ]
   },
   {
     "id": "2333",
@@ -292,7 +328,11 @@
         "Mantén un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2333-PXTIwgu.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2333-PXTIwgu.gif"
+    ]
   },
   {
     "id": "3214",
@@ -323,7 +363,11 @@
         "Regresa a la posición inicial y repite el movimiento llevando la mano izquierda hacia los dedos de los pies y levantando la pierna derecha detrás de ti.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3214-RtyAsy1.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3214-RtyAsy1.gif"
+    ]
   },
   {
     "id": "3204",
@@ -353,7 +397,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "3220",
@@ -386,7 +434,11 @@
         "Aterriza suavemente con los pies separados a la altura de los hombros, flexionando las rodillas para absorber el impacto.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3220-f9lVSSI.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3220-f9lVSSI.gif"
+    ]
   },
   {
     "id": "3672",
@@ -420,7 +472,11 @@
         "Continúa dando pasos hacia adelante y hacia atrás, manteniendo un ritmo constante.",
         "Repite durante la duración o el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3672-fNGumX0.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3672-fNGumX0.gif"
+    ]
   },
   {
     "id": "3297",
@@ -453,7 +509,11 @@
         "Mantén esta posición durante unos segundos, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3297-GaSzzuh.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3297-GaSzzuh.gif"
+    ]
   },
   {
     "id": "1405",
@@ -487,7 +547,11 @@
         "Mantén el estiramiento durante 15-30 segundos, luego suelta.",
         "Repite del lado opuesto."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1405-chfnQnM.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1405-chfnQnM.gif"
+    ]
   },
   {
     "id": "1473",
@@ -516,7 +580,11 @@
         "Aterriza suavemente sobre la punta de los pies, flexionando las rodillas para absorber el impacto.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1473-SaDOwk7.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1473-SaDOwk7.gif"
+    ]
   },
   {
     "id": "0020",
@@ -547,7 +615,11 @@
         "Mantén el equilibrio y la estabilidad mientras sostienes la posición durante el tiempo deseado.",
         "Repite el ejercicio con el otro pie."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Balance_Board/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Balance_Board/1.jpg"
+    ]
   },
   {
     "id": "3212",
@@ -577,7 +649,11 @@
         "Haz una pausa por un momento en la parte inferior, luego regresa lentamente a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3212-BbfB8Gb.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3212-BbfB8Gb.gif"
+    ]
   },
   {
     "id": "3360",
@@ -610,7 +686,11 @@
         "Mantén un ritmo constante y el core firme durante todo el ejercicio.",
         "Continúa durante la distancia o el tiempo deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bear_Crawl_Sled_Drags/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bear_Crawl_Sled_Drags/1.jpg"
+    ]
   },
   {
     "id": "0129",
@@ -640,7 +720,11 @@
         "Haz una pausa por un momento en la parte inferior, luego empuja tu cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0129-RrLske5.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0129-RrLske5.gif"
+    ]
   },
   {
     "id": "1399",
@@ -670,7 +754,11 @@
         "Empújate de vuelta hacia arriba a la posición inicial extendiendo los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1399-9RT8oQW.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1399-9RT8oQW.gif"
+    ]
   },
   {
     "id": "0130",
@@ -699,7 +787,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las caderas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0130-u27Kcdz.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0130-u27Kcdz.gif"
+    ]
   },
   {
     "id": "3019",
@@ -733,7 +825,11 @@
         "Baja de nuevo a la posición inicial con control.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pullups/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pullups/1.jpg"
+    ]
   },
   {
     "id": "3639",
@@ -765,7 +861,11 @@
         "Repite el movimiento hacia el otro lado.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3639-6sYyrRX.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3639-6sYyrRX.gif"
+    ]
   },
   {
     "id": "1770",
@@ -794,7 +894,11 @@
         "Contrae el bíceps en la parte más alta del movimiento, luego baja lentamente la mancuerna de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de brazo."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1770-sJFIDIp.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1770-sJFIDIp.gif"
+    ]
   },
   {
     "id": "0139",
@@ -822,7 +926,11 @@
         "Haz una pausa breve en la parte más alta, luego baja lentamente de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pullups/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pullups/1.jpg"
+    ]
   },
   {
     "id": "0140",
@@ -850,7 +958,11 @@
         "Haz una pausa en la parte más alta del movimiento, luego baja lentamente de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0140-guT8YnS.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0140-guT8YnS.gif"
+    ]
   },
   {
     "id": "0137",
@@ -880,7 +992,11 @@
         "Haz una pausa breve, luego empuja con las palmas para extender los brazos y levantar el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Body-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Body-Up/1.jpg"
+    ]
   },
   {
     "id": "3543",
@@ -913,7 +1029,11 @@
         "Aterriza suavemente sobre las puntas de los pies y de inmediato vuelve a bajar a una posición de sentadilla.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3543-wfotm7S.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3543-wfotm7S.gif"
+    ]
   },
   {
     "id": "3544",
@@ -943,7 +1063,11 @@
         "Mantén esta posición durante el tiempo deseado.",
         "Baja las caderas de nuevo al suelo y repite hacia el otro lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/1.jpg"
+    ]
   },
   {
     "id": "1771",
@@ -975,7 +1099,11 @@
         "Haz una pausa breve en la posición más baja, luego empuja con las manos para extender los brazos y volver a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1771-s0HKO2I.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1771-s0HKO2I.gif"
+    ]
   },
   {
     "id": "1769",
@@ -1002,7 +1130,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el antebrazo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1769-gscGLOU.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1769-gscGLOU.gif"
+    ]
   },
   {
     "id": "3168",
@@ -1032,7 +1164,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/1.jpg"
+    ]
   },
   {
     "id": "3167",
@@ -1062,7 +1198,11 @@
         "Haz una pausa breve en la parte más baja de la sentadilla, luego vuelve lentamente a la posición inicial mientras extiendes los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/1.jpg"
+    ]
   },
   {
     "id": "1373",
@@ -1092,7 +1232,11 @@
         "Haz una pausa breve en la parte alta y luego baja lentamente los talones de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1373-bJYHBIN.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1373-bJYHBIN.gif"
+    ]
   },
   {
     "id": "3156",
@@ -1122,7 +1266,11 @@
         "Haz una pausa breve en la parte más alta, luego baja lentamente la mancuerna de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3156-v2DfH14.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3156-v2DfH14.gif"
+    ]
   },
   {
     "id": "3158",
@@ -1154,7 +1302,11 @@
         "Haz una pausa breve en la parte más alta del movimiento, luego suelta lentamente y vuelve a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3158-tig3PXb.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3158-tig3PXb.gif"
+    ]
   },
   {
     "id": "3162",
@@ -1188,7 +1340,11 @@
         "Baja la mancuerna de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3162-xbkPfaw.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3162-xbkPfaw.gif"
+    ]
   },
   {
     "id": "3161",
@@ -1218,7 +1374,11 @@
         "Haz una pausa breve en la parte más alta, luego baja lentamente la toalla de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia al otro brazo."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3161-O4oIqQD.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3161-O4oIqQD.gif"
+    ]
   },
   {
     "id": "3166",
@@ -1252,7 +1412,11 @@
         "Suelta lentamente y extiende los brazos de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3166-wd4ds3s.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3166-wd4ds3s.gif"
+    ]
   },
   {
     "id": "3165",
@@ -1282,7 +1446,11 @@
         "Haz una pausa por un momento en la parte superior, luego suelta lentamente la tensión y regresa a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3165-uTv34oq.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3165-uTv34oq.gif"
+    ]
   },
   {
     "id": "0138",
@@ -1312,7 +1480,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las caderas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bottoms_Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bottoms_Up/1.jpg"
+    ]
   },
   {
     "id": "1374",
@@ -1345,7 +1517,11 @@
         "Baja lentamente con el pie que está sobre la caja, volviendo a la posición inicial.",
         "Repite el ejercicio con la otra pierna."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1374-iPm26QU.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1374-iPm26QU.gif"
+    ]
   },
   {
     "id": "2466",
@@ -1382,7 +1558,11 @@
         "Mantén un patrón de respiración constante durante todo el ejercicio.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2466-9c6T1YX.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2466-9c6T1YX.gif"
+    ]
   },
   {
     "id": "1160",
@@ -1419,7 +1599,11 @@
         "Salta hacia arriba explosivamente, llevando los brazos por encima de la cabeza.",
         "Aterriza suavemente y baja de inmediato a una posición de sentadilla para comenzar la siguiente repetición."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1160-dK9394r.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1160-dK9394r.gif"
+    ]
   },
   {
     "id": "0870",
@@ -1451,7 +1635,11 @@
         "Baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butt-Ups/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butt-Ups/1.jpg"
+    ]
   },
   {
     "id": "1494",
@@ -1485,7 +1673,11 @@
         "Mantén esta posición durante unas cuantas respiraciones.",
         "Para liberar, lleva lentamente las rodillas hacia arriba de nuevo y extiende las piernas."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butterfly/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butterfly/1.jpg"
+    ]
   },
   {
     "id": "1407",
@@ -1516,7 +1708,11 @@
         "Mantén el estiramiento durante 20-30 segundos.",
         "Cambia de pierna y repite el estiramiento."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1407-PzNxakt.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1407-PzNxakt.gif"
+    ]
   },
   {
     "id": "1377",
@@ -1547,7 +1743,11 @@
         "Mantén el estiramiento durante 20-30 segundos.",
         "Cambia de pierna y repite el estiramiento."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1377-m0tCHqc.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1377-m0tCHqc.gif"
+    ]
   },
   {
     "id": "2963",
@@ -1578,7 +1778,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2963-weoDEpH.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2963-weoDEpH.gif"
+    ]
   },
   {
     "id": "1548",
@@ -1608,7 +1812,11 @@
         "Mantén esta posición durante 20-30 segundos.",
         "Cambia de pierna y repite el estiramiento."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Leg_Extended_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Leg_Extended_Stretch/1.jpg"
+    ]
   },
   {
     "id": "1271",
@@ -1641,7 +1849,11 @@
         "Mantén el estiramiento durante 20-30 segundos, luego suelta.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chest_And_Front_Of_Shoulder_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chest_And_Front_Of_Shoulder_Stretch/1.jpg"
+    ]
   },
   {
     "id": "0251",
@@ -1669,7 +1881,11 @@
         "Empújate de vuelta hacia arriba a la posición inicial extendiendo los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0251-9WTm7dq.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0251-9WTm7dq.gif"
+    ]
   },
   {
     "id": "1430",
@@ -1705,7 +1921,11 @@
         "Empuja con las palmas y extiende los codos para subir el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1430-XgWyAiA.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1430-XgWyAiA.gif"
+    ]
   },
   {
     "id": "2462",
@@ -1735,7 +1955,11 @@
         "Empújate de vuelta hacia arriba a la posición inicial extendiendo los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2462-LQFOrMn.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2462-LQFOrMn.gif"
+    ]
   },
   {
     "id": "3216",
@@ -1767,7 +1991,11 @@
         "Repite el movimiento, esta vez tocando tu pecho con la mano izquierda.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3216-7E06s6d.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3216-7E06s6d.gif"
+    ]
   },
   {
     "id": "1326",
@@ -1797,7 +2025,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/1.jpg"
+    ]
   },
   {
     "id": "0253",
@@ -1827,7 +2059,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/1.jpg"
+    ]
   },
   {
     "id": "0257",
@@ -1855,7 +2091,11 @@
         "Manteniendo las rodillas flexionadas, gira las rodillas en un movimiento circular, primero en el sentido de las agujas del reloj y luego en sentido contrario.",
         "Realiza el movimiento el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0257-X7jbxra.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0257-X7jbxra.gif"
+    ]
   },
   {
     "id": "1273",
@@ -1885,7 +2125,11 @@
         "Mientras estás en el aire, junta las manos en un aplauso antes de aterrizar de vuelta en la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1273-wigSg76.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1273-wigSg76.gif"
+    ]
   },
   {
     "id": "0258",
@@ -1918,7 +2162,11 @@
         "Repite la flexión de brazos, esta vez girando el cuerpo hacia la derecha y extendiendo el brazo derecho hacia el lado.",
         "Continúa alternando lados en cada repetición."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clock_Push-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clock_Push-Up/1.jpg"
+    ]
   },
   {
     "id": "1327",
@@ -1950,7 +2198,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/1.jpg"
+    ]
   },
   {
     "id": "0259",
@@ -1978,7 +2230,11 @@
         "Empuja con las palmas para extender los brazos y regresar a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Close-Grip_Push-Up_off_of_a_Dumbbell/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Close-Grip_Push-Up_off_of_a_Dumbbell/1.jpg"
+    ]
   },
   {
     "id": "2398",
@@ -2008,7 +2264,11 @@
         "Empuja con las palmas para estirar los brazos y regresar a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2398-v3vLFW0.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2398-v3vLFW0.gif"
+    ]
   },
   {
     "id": "0260",
@@ -2038,7 +2298,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cocoons/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cocoons/1.jpg"
+    ]
   },
   {
     "id": "1468",
@@ -2068,7 +2332,11 @@
         "Regresa a la posición inicial y repite del otro lado.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1468-xgsGFVM.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1468-xgsGFVM.gif"
+    ]
   },
   {
     "id": "0262",
@@ -2099,7 +2367,11 @@
         "Repite en el otro lado, llevando el codo izquierdo hacia la rodilla derecha.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cross-Body_Crunch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cross-Body_Crunch/1.jpg"
+    ]
   },
   {
     "id": "0267",
@@ -2128,7 +2400,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crunch_-_Hands_Overhead/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crunch_-_Hands_Overhead/1.jpg"
+    ]
   },
   {
     "id": "0274",
@@ -2157,7 +2433,11 @@
         "Haz una pausa breve en la parte alta, luego baja lentamente los hombros de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0274-TFqbd8t.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0274-TFqbd8t.gif"
+    ]
   },
   {
     "id": "3016",
@@ -2186,7 +2466,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3016-g2oKspu.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3016-g2oKspu.gif"
+    ]
   },
   {
     "id": "3769",
@@ -2219,7 +2503,11 @@
         "Empuja con el pie delantero para regresar a la posición inicial.",
         "Repite en el otro lado, dando un paso en diagonal hacia atrás y a través de tu cuerpo con el pie izquierdo."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3769-gUjqdei.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3769-gUjqdei.gif"
+    ]
   },
   {
     "id": "0276",
@@ -2253,7 +2541,11 @@
         "Repite el movimiento con el brazo izquierdo y la pierna derecha.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dead_Bug/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dead_Bug/1.jpg"
+    ]
   },
   {
     "id": "0277",
@@ -2282,7 +2574,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Crunch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Crunch/1.jpg"
+    ]
   },
   {
     "id": "0279",
@@ -2312,7 +2608,11 @@
         "Empuja con las palmas para extender los brazos y regresar a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Push-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Push-Up/1.jpg"
+    ]
   },
   {
     "id": "0282",
@@ -2342,7 +2642,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "0283",
@@ -2372,7 +2676,11 @@
         "Haz una pausa por un momento en la parte inferior, luego empuja tu cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0283-soIB2rj.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0283-soIB2rj.gif"
+    ]
   },
   {
     "id": "0284",
@@ -2402,7 +2710,11 @@
         "Haz una pausa breve en la parte alta y luego baja lentamente los talones de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Donkey_Calf_Raises/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Donkey_Calf_Raises/1.jpg"
+    ]
   },
   {
     "id": "1275",
@@ -2432,7 +2744,11 @@
         "Empuja tu cuerpo de vuelta a la posición inicial extendiendo los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Drop_Push/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Drop_Push/1.jpg"
+    ]
   },
   {
     "id": "1167",
@@ -2464,7 +2780,11 @@
         "Mantén el estiramiento durante 10-30 segundos.",
         "Vuelve a la posición inicial y repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dynamic_Chest_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dynamic_Chest_Stretch/1.jpg"
+    ]
   },
   {
     "id": "3287",
@@ -2494,7 +2814,11 @@
         "Haz una pausa por un momento en la posición más baja, luego empuja con las manos para enderezar los brazos y levantar el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3287-LkoAWAE.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3287-LkoAWAE.gif"
+    ]
   },
   {
     "id": "1772",
@@ -2524,7 +2848,11 @@
         "Baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1772-wbUYILZ.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1772-wbUYILZ.gif"
+    ]
   },
   {
     "id": "0443",
@@ -2557,7 +2885,11 @@
         "Repite el movimiento, esta vez llevando el codo izquierdo hacia la rodilla derecha y la rodilla derecha hacia el codo izquierdo.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elbow_to_Knee/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elbow_to_Knee/1.jpg"
+    ]
   },
   {
     "id": "3292",
@@ -2587,7 +2919,11 @@
         "Haz una pausa por un momento en la posición más baja, luego sube lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3292-zYmNaoY.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3292-zYmNaoY.gif"
+    ]
   },
   {
     "id": "3303",
@@ -2619,7 +2955,11 @@
         "Baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3303-pQ0Mx1Z.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3303-pQ0Mx1Z.gif"
+    ]
   },
   {
     "id": "0456",
@@ -2650,7 +2990,11 @@
         "Haz una pausa breve en la parte superior, luego baja lentamente la parte superior del cuerpo y las piernas a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "0457",
@@ -2680,7 +3024,11 @@
         "Haz una pausa breve en la parte superior, luego baja lentamente la parte superior del cuerpo y las piernas a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "0459",
@@ -2708,7 +3056,11 @@
         "Manteniendo las piernas rectas, alterna levantando una pierna ligeramente más alto que la otra.",
         "Continúa este movimiento de aleteo durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flutter_Kicks/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flutter_Kicks/1.jpg"
+    ]
   },
   {
     "id": "1472",
@@ -2741,7 +3093,11 @@
         "Aterriza suavemente sobre la punta de los pies y pasa de inmediato al siguiente salto.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1472-uZKq7lo.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1472-uZKq7lo.gif"
+    ]
   },
   {
     "id": "3470",
@@ -2772,7 +3128,11 @@
         "Empuja con el pie derecho y vuelve a la posición inicial.",
         "Repite con la pierna izquierda, alternando los lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3470-kMzUs9Y.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3470-kMzUs9Y.gif"
+    ]
   },
   {
     "id": "2429",
@@ -2801,7 +3161,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2429-FFRP97T.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2429-FFRP97T.gif"
+    ]
   },
   {
     "id": "3301",
@@ -2832,7 +3196,11 @@
         "Mantén esta posición durante unos segundos, luego extiende las piernas de nuevo y empújate hacia arriba a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3301-rQhGcin.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3301-rQhGcin.gif"
+    ]
   },
   {
     "id": "3296",
@@ -2867,7 +3235,11 @@
         "Para soltar, baja lentamente las piernas y regresa a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3296-PkCN2lv.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3296-PkCN2lv.gif"
+    ]
   },
   {
     "id": "3295",
@@ -2899,7 +3271,11 @@
         "Baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3295-hbY9wqG.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3295-hbY9wqG.gif"
+    ]
   },
   {
     "id": "0464",
@@ -2933,7 +3309,11 @@
         "Repite el giro hacia el lado izquierdo.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/1.jpg"
+    ]
   },
   {
     "id": "3315",
@@ -2963,7 +3343,11 @@
         "Regresa a la posición inicial empujando con los pies y volviendo a ponerte de pie.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3315-YRaCa5Y.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3315-YRaCa5Y.gif"
+    ]
   },
   {
     "id": "3299",
@@ -2996,7 +3380,11 @@
         "Baja lentamente los pies de nuevo al suelo y regresa a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3299-YZ4961r.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3299-YZ4961r.gif"
+    ]
   },
   {
     "id": "3327",
@@ -3031,7 +3419,11 @@
         "Mantén una línea recta desde la cabeza hasta los talones durante todo el movimiento.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3327-gw9PqGk.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3327-gw9PqGk.gif"
+    ]
   },
   {
     "id": "0466",
@@ -3064,7 +3456,11 @@
         "Haz una pausa breve en la parte más alta, luego baja lentamente de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Gironda_Sternum_Chins/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Gironda_Sternum_Chins/1.jpg"
+    ]
   },
   {
     "id": "3561",
@@ -3096,7 +3492,11 @@
         "Continúa alternando las piernas con un movimiento de marcha mientras mantienes la posición de puente.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3561-GibBPPg.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3561-GibBPPg.gif"
+    ]
   },
   {
     "id": "3523",
@@ -3126,7 +3526,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las caderas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3523-aWedzZX.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3523-aWedzZX.gif"
+    ]
   },
   {
     "id": "3193",
@@ -3160,7 +3564,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Glute_Ham_Raise/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Glute_Ham_Raise/1.jpg"
+    ]
   },
   {
     "id": "0467",
@@ -3192,7 +3600,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Gorilla_Chin_Crunch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Gorilla_Chin_Crunch/1.jpg"
+    ]
   },
   {
     "id": "0469",
@@ -3222,7 +3634,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0469-mWppALS.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0469-mWppALS.gif"
+    ]
   },
   {
     "id": "3221",
@@ -3253,7 +3669,11 @@
         "Haz una pausa por un momento en la parte inferior, luego empuja con los talones para regresar a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3221-ia6kIIl.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3221-ia6kIIl.gif"
+    ]
   },
   {
     "id": "3202",
@@ -3282,7 +3702,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "1511",
@@ -3311,7 +3735,11 @@
         "Mantén el estiramiento durante 20-30 segundos, luego vuelve a la posición inicial.",
         "Repite del otro lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hamstring_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hamstring_Stretch/1.jpg"
+    ]
   },
   {
     "id": "3218",
@@ -3342,7 +3770,11 @@
         "Haz una pausa por un momento en la parte inferior, luego regresa lentamente a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3218-B5xca8s.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3218-B5xca8s.gif"
+    ]
   },
   {
     "id": "3215",
@@ -3377,7 +3809,11 @@
         "Invierte el movimiento y regresa las manos a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3215-yq3GAJX.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3215-yq3GAJX.gif"
+    ]
   },
   {
     "id": "3302",
@@ -3411,7 +3847,11 @@
         "Para bajar, lleva lentamente las piernas de vuelta al suelo.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Handstand_Push-Ups/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Handstand_Push-Ups/1.jpg"
+    ]
   },
   {
     "id": "0471",
@@ -3442,7 +3882,11 @@
         "Empuja con las manos y extiende los brazos para volver a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Handstand_Push-Ups/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Handstand_Push-Ups/1.jpg"
+    ]
   },
   {
     "id": "1764",
@@ -3470,7 +3914,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1764-VEcJRo2.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1764-VEcJRo2.gif"
+    ]
   },
   {
     "id": "0472",
@@ -3499,7 +3947,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Leg_Raise/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Leg_Raise/1.jpg"
+    ]
   },
   {
     "id": "1761",
@@ -3528,7 +3980,11 @@
         "Repite hacia el otro lado, girando el torso en la dirección opuesta.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1761-BaE7O6U.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1761-BaE7O6U.gif"
+    ]
   },
   {
     "id": "0473",
@@ -3558,7 +4014,11 @@
         "Mantén la posición por un momento, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Pike/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Pike/1.jpg"
+    ]
   },
   {
     "id": "0474",
@@ -3585,7 +4045,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0474-pj0X0tF.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0474-pj0X0tF.gif"
+    ]
   },
   {
     "id": "0475",
@@ -3614,7 +4078,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0475-4Ml7QFO.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0475-4Ml7QFO.gif"
+    ]
   },
   {
     "id": "0476",
@@ -3646,7 +4114,11 @@
         "Repite el movimiento, pero esta vez gira las caderas hacia el lado opuesto.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0476-Q6bvyen.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0476-Q6bvyen.gif"
+    ]
   },
   {
     "id": "3636",
@@ -3682,7 +4154,11 @@
         "Mantén un ritmo rápido y la parte superior del cuerpo estable durante todo el ejercicio.",
         "Repite durante la duración o el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3636-ealLwvX.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3636-ealLwvX.gif"
+    ]
   },
   {
     "id": "0484",
@@ -3712,7 +4188,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las caderas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0484-196HJGw.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0484-196HJGw.gif"
+    ]
   },
   {
     "id": "1418",
@@ -3742,7 +4222,11 @@
         "Mantén esta posición por un momento, luego regresa lentamente a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1418-znP9SIh.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1418-znP9SIh.gif"
+    ]
   },
   {
     "id": "0489",
@@ -3772,7 +4256,11 @@
         "Haz una pausa breve en la parte baja, luego eleva la parte superior del cuerpo hasta que quede alineada con las piernas.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hyperextensions_Back_Extensions/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hyperextensions_Back_Extensions/1.jpg"
+    ]
   },
   {
     "id": "0488",
@@ -3802,7 +4290,11 @@
         "Haz una pausa breve en la parte baja, luego eleva la parte superior del cuerpo hasta que quede alineada con las piernas.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0488-zkgRrbK.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0488-zkgRrbK.gif"
+    ]
   },
   {
     "id": "3289",
@@ -3832,7 +4324,11 @@
         "Haz una pausa breve, luego empújate de nuevo hacia arriba a la posición inicial estirando los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3289-05Cf2v8.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3289-05Cf2v8.gif"
+    ]
   },
   {
     "id": "1471",
@@ -3864,7 +4360,11 @@
         "Cuando las manos lleguen a los pies, ponte de pie de nuevo en la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inchworm/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inchworm/1.jpg"
+    ]
   },
   {
     "id": "3698",
@@ -3894,7 +4394,11 @@
         "Manteniendo las piernas rectas, camina con los pies hacia las manos, llevando las caderas hacia el techo.",
         "Continúa caminando con las manos hacia adelante, repitiendo el movimiento durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inchworm/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inchworm/1.jpg"
+    ]
   },
   {
     "id": "0490",
@@ -3924,7 +4428,11 @@
         "Haz una pausa breve en la parte baja, luego empújate de nuevo hacia arriba a la posición inicial estirando los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0490-1YB40kg.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0490-1YB40kg.gif"
+    ]
   },
   {
     "id": "0491",
@@ -3953,7 +4461,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0491-eVxAzgz.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0491-eVxAzgz.gif"
+    ]
   },
   {
     "id": "0492",
@@ -3986,7 +4498,11 @@
         "Salta desde el borde de la superficie, aterrizando suavemente con las rodillas ligeramente flexionadas.",
         "Repite la flexión de brazos y el salto en profundidad durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up_Depth_Jump/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up_Depth_Jump/1.jpg"
+    ]
   },
   {
     "id": "0493",
@@ -4016,7 +4532,11 @@
         "Haz una pausa breve en la parte baja, luego empújate de nuevo hacia arriba a la posición inicial estirando los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up/1.jpg"
+    ]
   },
   {
     "id": "3785",
@@ -4046,7 +4566,11 @@
         "Haz una pausa breve en la parte baja, luego empújate de nuevo hacia arriba a la posición inicial estirando los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up/1.jpg"
+    ]
   },
   {
     "id": "0494",
@@ -4076,7 +4600,11 @@
         "Haz una pausa breve en la parte baja, luego empújate de nuevo hacia arriba a la posición inicial extendiendo los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0494-XaaRnRn.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0494-XaaRnRn.gif"
+    ]
   },
   {
     "id": "3011",
@@ -4110,7 +4638,11 @@
         "Empuja con las palmas para extender los brazos y regresar a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3011-GdMa1ET.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3011-GdMa1ET.gif"
+    ]
   },
   {
     "id": "0495",
@@ -4145,7 +4677,11 @@
         "Repite el movimiento, esta vez girando el torso hacia el otro lado.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "0496",
@@ -4175,7 +4711,11 @@
         "Haz una pausa breve en la parte superior, luego extiende lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0496-ms7tjSG.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0496-ms7tjSG.gif"
+    ]
   },
   {
     "id": "2400",
@@ -4207,7 +4747,11 @@
         "Haz una pausa breve en la parte superior del movimiento, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2400-0rHfvy9.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2400-0rHfvy9.gif"
+    ]
   },
   {
     "id": "0499",
@@ -4241,7 +4785,11 @@
         "Haz una pausa breve en la parte más alta, luego baja lentamente de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/1.jpg"
+    ]
   },
   {
     "id": "2300",
@@ -4273,7 +4821,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/1.jpg"
+    ]
   },
   {
     "id": "2298",
@@ -4307,7 +4859,11 @@
         "Haz una pausa breve en la parte superior del movimiento, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/1.jpg"
+    ]
   },
   {
     "id": "0497",
@@ -4339,7 +4895,11 @@
         "Haz una pausa breve en la parte más alta, luego baja lentamente de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/1.jpg"
+    ]
   },
   {
     "id": "0498",
@@ -4373,7 +4933,11 @@
         "Haz una pausa breve en la parte más alta, luego baja lentamente de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row_with_Straps/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row_with_Straps/1.jpg"
+    ]
   },
   {
     "id": "1419",
@@ -4405,7 +4969,11 @@
         "Repite el estiramiento en el otro lado.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Iron_Cross/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Iron_Cross/1.jpg"
+    ]
   },
   {
     "id": "1297",
@@ -4437,7 +5005,11 @@
         "Suelta la contracción y relaja los músculos del pecho.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Isometric_Chest_Squeezes/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Isometric_Chest_Squeezes/1.jpg"
+    ]
   },
   {
     "id": "0500",
@@ -4472,7 +5044,11 @@
         "Repite el movimiento, esta vez bajando las piernas hacia el lado opuesto.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Isometric_Wipers/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Isometric_Wipers/1.jpg"
+    ]
   },
   {
     "id": "0501",
@@ -4510,7 +5086,11 @@
         "Salta hacia arriba explosivamente, llevando los brazos por encima de la cabeza.",
         "Aterriza suavemente y baja de inmediato a una posición de sentadilla para comenzar la siguiente repetición."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0501-mr7pkqP.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0501-mr7pkqP.gif"
+    ]
   },
   {
     "id": "3224",
@@ -4538,7 +5118,11 @@
         "Al aterrizar, salta rápidamente de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3224-1g5bPpA.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3224-1g5bPpA.gif"
+    ]
   },
   {
     "id": "0507",
@@ -4565,7 +5149,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas y la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Jackknife_Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Jackknife_Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "0508",
@@ -4595,7 +5183,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Janda_Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Janda_Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "0514",
@@ -4628,7 +5220,11 @@
         "Aterriza suavemente sobre la punta de los pies y pasa de inmediato a la siguiente repetición.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Freehand_Jump_Squat/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Freehand_Jump_Squat/1.jpg"
+    ]
   },
   {
     "id": "0513",
@@ -4659,7 +5255,11 @@
         "Aterriza suavemente sobre la punta de los pies y de inmediato baja el cuerpo de nuevo a una posición de sentadilla.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0513-TDYiji6.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0513-TDYiji6.gif"
+    ]
   },
   {
     "id": "0555",
@@ -4689,7 +5289,11 @@
         "Haz una pausa breve en lo alto, luego flexiona lentamente las rodillas y lleva los pies de vuelta hacia el cuerpo.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0555-v7p5bYl.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0555-v7p5bYl.gif"
+    ]
   },
   {
     "id": "0558",
@@ -4723,7 +5327,11 @@
         "Bájate de vuelta a la posición inicial flexionando los brazos y controlando el descenso.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Kipping_Muscle_Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Kipping_Muscle_Up/1.jpg"
+    ]
   },
   {
     "id": "3640",
@@ -4752,7 +5360,11 @@
         "Vuelve a la posición inicial y repite, esta vez extendiendo la mano izquierda hacia la rodilla derecha.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3640-dTg95eZ.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3640-dTg95eZ.gif"
+    ]
   },
   {
     "id": "1346",
@@ -4784,7 +5396,11 @@
         "Repite el estiramiento en el lado izquierdo, inclinándote hacia la izquierda y sintiendo un estiramiento en el dorsal derecho.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1346-f38OEuO.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1346-f38OEuO.gif"
+    ]
   },
   {
     "id": "3239",
@@ -4814,7 +5430,11 @@
         "Devuelve la mano al suelo y repite con la otra mano.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/1.jpg"
+    ]
   },
   {
     "id": "3211",
@@ -4844,7 +5464,11 @@
         "Continúa bajando hasta que el pecho esté justo encima del suelo, luego empuja hacia arriba a la posición inicial enderezando los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3211-ZOuKWir.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3211-ZOuKWir.gif"
+    ]
   },
   {
     "id": "3288",
@@ -4872,7 +5496,11 @@
         "Haz una pausa breve, luego empújate de nuevo hacia arriba a la posición inicial estirando los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3288-rWoBmi5.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3288-rWoBmi5.gif"
+    ]
   },
   {
     "id": "3418",
@@ -4904,7 +5532,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3418-d1GgzTU.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3418-d1GgzTU.gif"
+    ]
   },
   {
     "id": "3419",
@@ -4937,7 +5569,11 @@
         "Baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3419-UpWmA5E.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3419-UpWmA5E.gif"
+    ]
   },
   {
     "id": "3300",
@@ -4968,7 +5604,11 @@
         "Mantén esta posición durante unos segundos, luego vuelve lentamente a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3300-LYJodFS.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3300-LYJodFS.gif"
+    ]
   },
   {
     "id": "2271",
@@ -4999,7 +5639,11 @@
         "Gira el torso y activa los músculos del core para generar potencia en el golpe.",
         "Lleva el brazo rápidamente de vuelta a la posición inicial y repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2271-hoXt6wv.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2271-hoXt6wv.gif"
+    ]
   },
   {
     "id": "0570",
@@ -5029,7 +5673,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Pull-In/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Pull-In/1.jpg"
+    ]
   },
   {
     "id": "1576",
@@ -5058,7 +5706,11 @@
         "Mantén el estiramiento durante 20-30 segundos.",
         "Repite con la otra pierna."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg-Up_Hamstring_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg-Up_Hamstring_Stretch/1.jpg"
+    ]
   },
   {
     "id": "3013",
@@ -5090,7 +5742,11 @@
         "Baja lentamente las caderas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3013-u0cNiij.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3013-u0cNiij.gif"
+    ]
   },
   {
     "id": "1352",
@@ -5118,7 +5774,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lower_Back_Curl/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lower_Back_Curl/1.jpg"
+    ]
   },
   {
     "id": "3582",
@@ -5149,7 +5809,11 @@
         "Aterriza suavemente con el pie izquierdo hacia adelante y baja inmediatamente el cuerpo a una posición de zancada.",
         "Continúa alternando entre zancadas y saltos el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3582-PM1PZjg.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3582-PM1PZjg.gif"
+    ]
   },
   {
     "id": "1688",
@@ -5182,7 +5846,11 @@
         "Repite hacia el otro lado, dando un paso adelante con el pie izquierdo y girando el torso hacia la izquierda.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1688-K9VL0Jq.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1688-K9VL0Jq.gif"
+    ]
   },
   {
     "id": "0613",
@@ -5211,7 +5879,11 @@
         "Mantén el estiramiento durante 20-30 segundos.",
         "Suelta el estiramiento y repite del otro lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0613-BWnJR72.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0613-BWnJR72.gif"
+    ]
   },
   {
     "id": "2312",
@@ -5245,7 +5917,11 @@
         "Repite el movimiento, esta vez llevando el codo izquierdo hacia la rodilla derecha y extendiendo la pierna izquierda.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elbow_to_Knee/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elbow_to_Knee/1.jpg"
+    ]
   },
   {
     "id": "0620",
@@ -5274,7 +5950,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0620-WhuFnR7.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0620-WhuFnR7.gif"
+    ]
   },
   {
     "id": "0865",
@@ -5303,7 +5983,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0865-9IxJdtC.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0865-9IxJdtC.gif"
+    ]
   },
   {
     "id": "0624",
@@ -5334,7 +6018,11 @@
         "Baja el pie derecho de nuevo y levanta el pie izquierdo del suelo, llevando la rodilla hacia el pecho.",
         "Continúa alternando entre levantar el pie derecho y el izquierdo el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0624-sVQCCeG.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0624-sVQCCeG.gif"
+    ]
   },
   {
     "id": "0627",
@@ -5366,7 +6054,11 @@
         "Haz una pausa por un momento en la parte alta y luego baja lentamente tu cuerpo, con control, hasta la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/1.jpg"
+    ]
   },
   {
     "id": "3217",
@@ -5397,7 +6089,11 @@
         "Sigue bajando el cuerpo hasta que el pecho quede justo por encima del suelo y luego invierte el movimiento, empujando las caderas hacia abajo y extendiendo los brazos para volver a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3217-epOSYUZ.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3217-epOSYUZ.gif"
+    ]
   },
   {
     "id": "1421",
@@ -5428,7 +6124,11 @@
         "Haz una pausa por un momento y luego empuja con las palmas para llevar los antebrazos de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1421-arvaszz.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1421-arvaszz.gif"
+    ]
   },
   {
     "id": "0628",
@@ -5458,7 +6158,11 @@
         "Continúa con el pie izquierdo, dando un paso lateral para volver a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Monster_Walk/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Monster_Walk/1.jpg"
+    ]
   },
   {
     "id": "0630",
@@ -5489,7 +6193,11 @@
         "Mantén un ritmo constante y respira de forma regular durante todo el ejercicio.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Mountain_Climbers/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Mountain_Climbers/1.jpg"
+    ]
   },
   {
     "id": "0631",
@@ -5523,7 +6231,11 @@
         "Invierte el movimiento bajando lentamente de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Muscle_Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Muscle_Up/1.jpg"
+    ]
   },
   {
     "id": "1401",
@@ -5556,7 +6268,11 @@
         "Haz una pausa breve en la parte más alta, luego baja lentamente de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Muscle_Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Muscle_Up/1.jpg"
+    ]
   },
   {
     "id": "1403",
@@ -5586,7 +6302,11 @@
         "Repite del otro lado.",
         "Realiza de 2 a 4 series por cada lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1403-x2chWLO.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1403-x2chWLO.gif"
+    ]
   },
   {
     "id": "0634",
@@ -5615,7 +6335,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0634-szIn2UK.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0634-szIn2UK.gif"
+    ]
   },
   {
     "id": "1495",
@@ -5646,7 +6370,11 @@
         "Repite del otro lado.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1495-cJgSTmh.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1495-cJgSTmh.gif"
+    ]
   },
   {
     "id": "0635",
@@ -5675,7 +6403,11 @@
         "Haz una pausa por un momento y luego baja las escápulas de nuevo hasta el suelo.",
         "Repite hacia el otro lado, alternando los lados en cada repetición."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crunches/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crunches/1.jpg"
+    ]
   },
   {
     "id": "1355",
@@ -5705,7 +6437,11 @@
         "Empuja lentamente la pared con la palma, activando los dorsales.",
         "Mantén la posición durante unos segundos, luego suelta y repite con el otro brazo."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One_Arm_Against_Wall/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One_Arm_Against_Wall/1.jpg"
+    ]
   },
   {
     "id": "0638",
@@ -5737,7 +6473,11 @@
         "Continúa subiendo hasta que la barbilla quede por encima de la barra, luego bájate lentamente de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de brazo y repite."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One_Arm_Chin-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One_Arm_Chin-Up/1.jpg"
+    ]
   },
   {
     "id": "0639",
@@ -5769,7 +6509,11 @@
         "Haz una pausa por un momento en la parte baja y luego empuja con las palmas para estirar los brazos y volver a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de lado y repite con el otro brazo."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0639-FAoIFMw.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0639-FAoIFMw.gif"
+    ]
   },
   {
     "id": "1773",
@@ -5801,7 +6545,11 @@
         "Haz una pausa breve en la parte más alta, luego baja lentamente la toalla de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de brazo."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1773-bKWbrTA.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1773-bKWbrTA.gif"
+    ]
   },
   {
     "id": "1386",
@@ -5833,7 +6581,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el talón de vuelta hacia abajo.",
         "Repite el número de repeticiones deseado, luego cambia de pierna."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1386-A2upspL.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1386-A2upspL.gif"
+    ]
   },
   {
     "id": "1387",
@@ -5863,7 +6615,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el talón de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado y luego cambia de pierna y repite."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1387-0jp9Rlz.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1387-0jp9Rlz.gif"
+    ]
   },
   {
     "id": "1476",
@@ -5896,7 +6652,11 @@
         "Empuja con el talón para regresar a la posición inicial.",
         "Repite con la otra pierna."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1476-C31LMnP.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1476-C31LMnP.gif"
+    ]
   },
   {
     "id": "0642",
@@ -5927,7 +6687,11 @@
         "Vuelve a colocar la pierna en la posición inicial y repite la flexión, alternando las piernas en cada repetición.",
         "Continúa alternando las patadas de pierna y las flexiones el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0642-jNU1gFQ.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0642-jNU1gFQ.gif"
+    ]
   },
   {
     "id": "0643",
@@ -5956,7 +6720,11 @@
         "Mantén el estiramiento durante 15-30 segundos, luego suelta.",
         "Repite del otro lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Overhead_Triceps/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Overhead_Triceps/1.jpg"
+    ]
   },
   {
     "id": "3147",
@@ -5987,7 +6755,11 @@
         "Deshaz la inclinación y vuelve a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pelvic_Tilt_Into_Bridge/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pelvic_Tilt_Into_Bridge/1.jpg"
+    ]
   },
   {
     "id": "1422",
@@ -6021,7 +6793,11 @@
         "Baja lentamente las caderas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pelvic_Tilt_Into_Bridge/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pelvic_Tilt_Into_Bridge/1.jpg"
+    ]
   },
   {
     "id": "3662",
@@ -6058,7 +6834,11 @@
         "Continúa el movimiento bajando las caderas de nuevo hacia el suelo, volviendo a la posición inicial de flexión.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3662-XPUDTt7.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3662-XPUDTt7.gif"
+    ]
   },
   {
     "id": "1306",
@@ -6089,7 +6869,11 @@
         "Aterriza suavemente con las manos de vuelta en la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plyo_Push-up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plyo_Push-up/1.jpg"
+    ]
   },
   {
     "id": "1687",
@@ -6125,7 +6909,11 @@
         "Repite el movimiento hacia el otro lado, retrocediendo con el pie izquierdo y flexionando la rodilla derecha.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1687-ErqK3UL.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1687-ErqK3UL.gif"
+    ]
   },
   {
     "id": "3119",
@@ -6157,7 +6945,11 @@
         "Haz una pausa por un momento en la parte inferior, luego empuja con los talones para regresar a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3119-75Bgtjy.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3119-75Bgtjy.gif"
+    ]
   },
   {
     "id": "3132",
@@ -6190,7 +6982,11 @@
         "Haz una pausa por un momento en la parte inferior, luego empuja con los talones para regresar a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3132-b63ZzGe.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3132-b63ZzGe.gif"
+    ]
   },
   {
     "id": "3665",
@@ -6223,7 +7019,11 @@
         "Para volver a la posición inicial, empuja con los antebrazos y eleva el cuerpo de nuevo a una posición de plancha alta.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/1.jpg"
+    ]
   },
   {
     "id": "3203",
@@ -6252,7 +7052,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "0651",
@@ -6284,7 +7088,11 @@
         "Haz una pausa por un momento en la parte alta y luego baja lentamente tu cuerpo, con control, hasta la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0651-0V2YQjW.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0651-0V2YQjW.gif"
+    ]
   },
   {
     "id": "0652",
@@ -6314,7 +7122,11 @@
         "Haz una pausa en la parte alta del movimiento y luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Assisted_Pull-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Assisted_Pull-Up/1.jpg"
+    ]
   },
   {
     "id": "1689",
@@ -6346,7 +7158,11 @@
         "Empuja con las palmas para extender los brazos y regresar a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1689-wXvUZC8.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1689-wXvUZC8.gif"
+    ]
   },
   {
     "id": "3638",
@@ -6379,7 +7195,11 @@
         "Continúa alternando las rodillas tan rápido como puedas manteniendo una buena forma.",
         "Continúa durante el tiempo o el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3638-PrQbjvB.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3638-PrQbjvB.gif"
+    ]
   },
   {
     "id": "0662",
@@ -6408,7 +7228,11 @@
         "Haz una pausa cuando el pecho esté justo por encima del suelo y luego empújate de vuelta a la posición inicial estirando los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clock_Push-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clock_Push-Up/1.jpg"
+    ]
   },
   {
     "id": "0659",
@@ -6440,7 +7264,11 @@
         "Empuja de vuelta a la posición inicial, estirando los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0659-LEH9jxP.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0659-LEH9jxP.gif"
+    ]
   },
   {
     "id": "0658",
@@ -6474,7 +7302,11 @@
         "Haz una pausa por un momento y luego empújate de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0658-NCmbLCw.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0658-NCmbLCw.gif"
+    ]
   },
   {
     "id": "0661",
@@ -6506,7 +7338,11 @@
         "Baja la pierna de nuevo y repite la flexión, luego cambia a la otra pierna.",
         "Continúa alternando las patadas de pierna en cada repetición de la flexión."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0661-0br45wL.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0661-0br45wL.gif"
+    ]
   },
   {
     "id": "1467",
@@ -6536,7 +7372,11 @@
         "Haz una pausa por un momento en la parte inferior, luego empuja tu cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1467-4Jt8QsQ.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1467-4Jt8QsQ.gif"
+    ]
   },
   {
     "id": "3145",
@@ -6568,7 +7408,11 @@
         "Haz una pausa por un momento y luego invierte el movimiento juntando las escápulas y bajando el cuerpo de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3145-pvBMLHA.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3145-pvBMLHA.gif"
+    ]
   },
   {
     "id": "0664",
@@ -6603,7 +7447,11 @@
         "Repite la flexión y la plancha lateral en el lado opuesto.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push_Up_to_Side_Plank/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push_Up_to_Side_Plank/1.jpg"
+    ]
   },
   {
     "id": "3533",
@@ -6635,7 +7483,11 @@
         "Empuja con los talones para volver a ponerte de pie en la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/All_Fours_Quad_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/All_Fours_Quad_Stretch/1.jpg"
+    ]
   },
   {
     "id": "3201",
@@ -6664,7 +7516,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "3552",
@@ -6692,7 +7548,11 @@
         "Mantén los movimientos rápidos y ligeros, concentrándote en quedarte sobre la punta de los pies.",
         "Continúa durante el tiempo o el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3552-mweqJin.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3552-mweqJin.gif"
+    ]
   },
   {
     "id": "0666",
@@ -6723,7 +7583,11 @@
         "Empuja de vuelta a la posición inicial, usando los músculos del pecho para elevar el cuerpo.",
         "Repite con el otro brazo extendido."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Single-Arm_Push-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Single-Arm_Push-Up/1.jpg"
+    ]
   },
   {
     "id": "0668",
@@ -6753,7 +7617,11 @@
         "Mantén esta posición durante unos segundos y luego baja lentamente las caderas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0668-UpAlold.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0668-UpAlold.gif"
+    ]
   },
   {
     "id": "0669",
@@ -6783,7 +7651,11 @@
         "Mantén el estiramiento durante 15-30 segundos, luego suelta.",
         "Repite del otro lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0669-xifhB5W.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0669-xifhB5W.gif"
+    ]
   },
   {
     "id": "0670",
@@ -6815,7 +7687,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Rear_Pull-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Rear_Pull-Up/1.jpg"
+    ]
   },
   {
     "id": "0872",
@@ -6844,7 +7720,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las caderas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Crunch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Crunch/1.jpg"
+    ]
   },
   {
     "id": "0672",
@@ -6872,7 +7752,11 @@
         "Haz una pausa breve, luego empújate de nuevo hacia arriba a la posición inicial estirando los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0672-NZ5Qqkz.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0672-NZ5Qqkz.gif"
+    ]
   },
   {
     "id": "0674",
@@ -6904,7 +7788,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0674-YAk5dIw.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0674-YAk5dIw.gif"
+    ]
   },
   {
     "id": "1423",
@@ -6936,7 +7824,11 @@
         "Baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1423-OrETs32.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1423-OrETs32.gif"
+    ]
   },
   {
     "id": "3663",
@@ -6969,7 +7861,11 @@
         "Repite con la otra pierna.",
         "Continúa alternando las piernas durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Lift/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Lift/1.jpg"
+    ]
   },
   {
     "id": "0677",
@@ -6997,7 +7893,11 @@
         "Empújate de vuelta hacia arriba a la posición inicial extendiendo los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ring_Dips/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ring_Dips/1.jpg"
+    ]
   },
   {
     "id": "2571",
@@ -7031,7 +7931,11 @@
         "Vuelve lentamente a la posición inicial flexionando las rodillas y bajando las caderas de nuevo.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2571-2Dk4xQV.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2571-2Dk4xQV.gif"
+    ]
   },
   {
     "id": "0678",
@@ -7063,7 +7967,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0678-cQ19bBP.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0678-cQ19bBP.gif"
+    ]
   },
   {
     "id": "0685",
@@ -7094,7 +8002,11 @@
         "Mantén un ritmo constante y continúa trotando durante la duración o distancia deseada.",
         "Recuerda respirar profundamente y mantener una buena postura durante todo el ejercicio."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0685-oLrKqDH.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0685-oLrKqDH.gif"
+    ]
   },
   {
     "id": "0684",
@@ -7125,7 +8037,11 @@
         "Mantén un ritmo constante y continúa trotando durante la duración o distancia deseada.",
         "Recuerda respirar profundamente y mantener una buena postura durante todo el ejercicio."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0684-y5p0H8a.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0684-y5p0H8a.gif"
+    ]
   },
   {
     "id": "1585",
@@ -7155,7 +8071,11 @@
         "Coloca las manos sobre el muslo derecho para apoyarte.",
         "Mantén el estiramiento durante 20-30 segundos, luego cambia de lado y repite."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Runners_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Runners_Stretch/1.jpg"
+    ]
   },
   {
     "id": "0687",
@@ -7188,7 +8108,11 @@
         "Haz una pausa por un momento, luego gira el torso hacia la izquierda, llevando las manos o la pesa hacia el lado izquierdo del cuerpo.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Russian_Twist/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Russian_Twist/1.jpg"
+    ]
   },
   {
     "id": "3012",
@@ -7218,7 +8142,11 @@
         "Haz una pausa por un momento en la posición baja, luego empuja con las manos para extender los codos y volver a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3012-7xeukSt.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3012-7xeukSt.gif"
+    ]
   },
   {
     "id": "3021",
@@ -7248,7 +8176,11 @@
         "Haz una pausa por un momento en la posición baja, luego empuja de nuevo hacia arriba hasta la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3021-jV65tKx.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3021-jV65tKx.gif"
+    ]
   },
   {
     "id": "0688",
@@ -7279,7 +8211,11 @@
         "Haz una pausa breve en la parte superior del movimiento, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Scapular_Pull-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Scapular_Pull-Up/1.jpg"
+    ]
   },
   {
     "id": "3219",
@@ -7310,7 +8246,11 @@
         "Continúa alternando las piernas y saltando lo más rápido posible.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3219-Eh2v5Iu.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3219-Eh2v5Iu.gif"
+    ]
   },
   {
     "id": "1390",
@@ -7339,7 +8279,11 @@
         "Mantén el estiramiento durante 20-30 segundos.",
         "Cambia de pierna y repite el estiramiento."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Calf_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Calf_Stretch/1.jpg"
+    ]
   },
   {
     "id": "1424",
@@ -7370,7 +8314,11 @@
         "Mantén el estiramiento durante 30 segundos a 1 minuto.",
         "Cambia de lado y repite."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Glute/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Glute/1.jpg"
+    ]
   },
   {
     "id": "0689",
@@ -7399,7 +8347,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0689-Hgs6Nl1.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0689-Hgs6Nl1.gif"
+    ]
   },
   {
     "id": "0690",
@@ -7429,7 +8381,11 @@
         "Siente el estiramiento en la zona lumbar y mantén la posición durante 20-30 segundos.",
         "Regresa lentamente a la posición inicial y repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0690-QFmz6ch.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0690-QFmz6ch.gif"
+    ]
   },
   {
     "id": "2567",
@@ -7456,7 +8412,11 @@
         "Coloca el codo izquierdo en la parte exterior de la rodilla derecha y gira suavemente el torso hacia la derecha.",
         "Mantén el estiramiento durante 20-30 segundos, luego cambia de lado y repite."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2567-QY39eBr.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2567-QY39eBr.gif"
+    ]
   },
   {
     "id": "0691",
@@ -7489,7 +8449,11 @@
         "Repite del otro lado.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0691-Y9hNPcN.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0691-Y9hNPcN.gif"
+    ]
   },
   {
     "id": "1587",
@@ -7525,7 +8489,11 @@
         "Libera lentamente el estiramiento y vuelve a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1587-HIgYKAB.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1587-HIgYKAB.gif"
+    ]
   },
   {
     "id": "0697",
@@ -7555,7 +8523,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0697-GwYwElT.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0697-GwYwElT.gif"
+    ]
   },
   {
     "id": "1766",
@@ -7587,7 +8559,11 @@
         "Baja lentamente las piernas de vuelta a la posición inicial mientras inhalas.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1766-ZSY3MsL.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1766-ZSY3MsL.gif"
+    ]
   },
   {
     "id": "0696",
@@ -7621,7 +8597,11 @@
         "Baja las caderas de nuevo hacia el suelo.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0696-E4PwJqI.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0696-E4PwJqI.gif"
+    ]
   },
   {
     "id": "3222",
@@ -7652,7 +8632,11 @@
         "Aterriza suavemente sobre la punta de los pies y pasa de inmediato a la siguiente repetición.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3222-6FMU51h.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3222-6FMU51h.gif"
+    ]
   },
   {
     "id": "3656",
@@ -7683,7 +8667,11 @@
         "Después de unos segundos, comienza a dar pasos cortos hacia delante, manteniendo un ritmo rápido.",
         "Continúa corriendo con pasos cortos durante la duración o distancia deseada."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3656-CcWEoWV.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3656-CcWEoWV.gif"
+    ]
   },
   {
     "id": "1763",
@@ -7713,7 +8701,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1763-YtgD7Xq.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1763-YtgD7Xq.gif"
+    ]
   },
   {
     "id": "3699",
@@ -7743,7 +8735,11 @@
         "Continúa alternando los toques de hombro mientras mantienes las caderas y el torso estables.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3699-yRpV5TC.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3699-yRpV5TC.gif"
+    ]
   },
   {
     "id": "0699",
@@ -7777,7 +8773,11 @@
         "Mantén el core estable y evita una rotación excesiva de la cadera durante todo el ejercicio.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0699-qEse6fe.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0699-qEse6fe.gif"
+    ]
   },
   {
     "id": "1774",
@@ -7809,7 +8809,11 @@
         "Haz una pausa por un momento en la posición alta, luego baja la pierna de nuevo.",
         "Repite el número de repeticiones deseado, luego cambia de lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Bridge/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Bridge/1.jpg"
+    ]
   },
   {
     "id": "0705",
@@ -7841,7 +8845,11 @@
         "Baja las caderas de vuelta a la posición inicial.",
         "Repite del otro lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Bridge/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Bridge/1.jpg"
+    ]
   },
   {
     "id": "0709",
@@ -7871,7 +8879,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0709-jTkSc6o.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0709-jTkSc6o.gif"
+    ]
   },
   {
     "id": "0710",
@@ -7901,7 +8913,11 @@
         "Repite del otro lado.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0710-7WaDzyL.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0710-7WaDzyL.gif"
+    ]
   },
   {
     "id": "1358",
@@ -7933,7 +8949,11 @@
         "Mantén el estiramiento durante 20-30 segundos, luego baja lentamente la pierna de nuevo.",
         "Repite del otro lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side-Lying_Floor_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side-Lying_Floor_Stretch/1.jpg"
+    ]
   },
   {
     "id": "3667",
@@ -7963,7 +8983,11 @@
         "Haz una pausa por un momento en la posición alta, luego baja lentamente la pierna de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3667-c8f5cSY.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3667-c8f5cSY.gif"
+    ]
   },
   {
     "id": "1775",
@@ -7995,7 +9019,11 @@
         "Baja lentamente la pierna de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/1.jpg"
+    ]
   },
   {
     "id": "0716",
@@ -8027,7 +9055,11 @@
         "Repite hacia el otro lado, inclinando la cabeza hacia la izquierda y aplicando presión con la mano izquierda.",
         "Repite el estiramiento 2-3 veces en cada lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0716-oQRJYkC.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0716-oQRJYkC.gif"
+    ]
   },
   {
     "id": "0717",
@@ -8060,7 +9092,11 @@
         "Baja el cuerpo de nuevo a la posición inicial con control.",
         "Repite el número de repeticiones deseado, luego cambia de lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0717-wpbD28t.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0717-wpbD28t.gif"
+    ]
   },
   {
     "id": "0721",
@@ -8090,7 +9126,11 @@
         "Mantén el estiramiento durante 15-30 segundos, luego suelta.",
         "Repite del otro lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Wrist_Pull/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Wrist_Pull/1.jpg"
+    ]
   },
   {
     "id": "0720",
@@ -8122,7 +9162,11 @@
         "Una vez que la barbilla esté por encima de la barra, bájate de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_To_Side_Chins/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_To_Side_Chins/1.jpg"
+    ]
   },
   {
     "id": "3213",
@@ -8150,7 +9194,11 @@
         "Vuelve a la posición inicial y luego dobla la cintura hacia la izquierda, llevando la mano izquierda hacia el pie izquierdo mientras mantienes la mano derecha extendida hacia el lado.",
         "Repite el movimiento de flexión lateral el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3213-WCAvOfC.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3213-WCAvOfC.gif"
+    ]
   },
   {
     "id": "0725",
@@ -8181,7 +9229,11 @@
         "Empuja con el pecho y los tríceps para subir el cuerpo de nuevo a la posición inicial, mientras bajas simultáneamente el brazo extendido de vuelta al suelo.",
         "Repite el movimiento, alternando el brazo que extiendes en cada repetición."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Single-Arm_Push-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Single-Arm_Push-Up/1.jpg"
+    ]
   },
   {
     "id": "3645",
@@ -8211,7 +9263,11 @@
         "Mantén la posición alta por un momento, luego baja lentamente las caderas de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de pierna."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3645-rmEukuS.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3645-rmEukuS.gif"
+    ]
   },
   {
     "id": "0730",
@@ -8241,7 +9297,11 @@
         "Vuelve lentamente a la posición inicial deslizando el pie de regreso a la posición inicial.",
         "Repite el movimiento el número de repeticiones deseado y luego cambia de pierna."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0730-LNE3wfo.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0730-LNE3wfo.gif"
+    ]
   },
   {
     "id": "1759",
@@ -8276,7 +9336,11 @@
         "Haz una pausa por un momento en la posición baja, luego empuja con el talón izquierdo para volver a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de pierna."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1759-nqs5HGV.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1759-nqs5HGV.gif"
+    ]
   },
   {
     "id": "1489",
@@ -8308,7 +9372,11 @@
         "Haz una pausa breve y luego empuja con los talones para volver a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Weighted_Sissy_Squat/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Weighted_Sissy_Squat/1.jpg"
+    ]
   },
   {
     "id": "0735",
@@ -8337,7 +9405,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "3679",
@@ -8366,7 +9438,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/1.jpg"
+    ]
   },
   {
     "id": "3361",
@@ -8402,7 +9478,11 @@
         "Continúa alternando los lados, saltando y tocando el suelo con cada pierna.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3361-zfNHMN9.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3361-zfNHMN9.gif"
+    ]
   },
   {
     "id": "3671",
@@ -8436,7 +9516,11 @@
         "Continúa alternando los saltos de lado a lado, imitando un movimiento de esquí.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3671-5MRH8H2.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3671-5MRH8H2.gif"
+    ]
   },
   {
     "id": "3304",
@@ -8468,7 +9552,11 @@
         "Mientras bajas las piernas, permite que el cuerpo pase de nuevo entre los brazos hasta quedar colgado con los brazos completamente extendidos otra vez.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3304-MSfvriJ.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3304-MSfvriJ.gif"
+    ]
   },
   {
     "id": "1362",
@@ -8498,7 +9586,11 @@
         "Baja lentamente el pecho de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1362-DIVyqrU.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1362-DIVyqrU.gif"
+    ]
   },
   {
     "id": "0778",
@@ -8529,7 +9621,11 @@
         "Empuja de nuevo hacia arriba a la posición inicial y repite llevando la rodilla izquierda hacia el codo izquierdo.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Spider_Crawl/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Spider_Crawl/1.jpg"
+    ]
   },
   {
     "id": "1363",
@@ -8561,7 +9657,11 @@
         "Mantén el estiramiento durante unos segundos, luego regresa lentamente a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1363-JbC2iaV.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1363-JbC2iaV.gif"
+    ]
   },
   {
     "id": "2329",
@@ -8595,7 +9695,11 @@
         "Repite el giro hacia el lado izquierdo, llevando el codo izquierdo hacia la rodilla derecha.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2329-2jl9K55.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2329-2jl9K55.gif"
+    ]
   },
   {
     "id": "2368",
@@ -8628,7 +9732,11 @@
         "Haz una pausa breve, luego empuja con el talón delantero para volver a la posición inicial.",
         "Repite el número de repeticiones deseado y luego cambia de pierna y repite."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Split_Squats/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Split_Squats/1.jpg"
+    ]
   },
   {
     "id": "1685",
@@ -8659,7 +9767,11 @@
         "Vuelve a la posición inicial bajando los brazos y flexionando las rodillas para volver a hacer la sentadilla.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1685-QChZi3x.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1685-QChZi3x.gif"
+    ]
   },
   {
     "id": "1686",
@@ -8690,7 +9802,11 @@
         "Vuelve a la posición inicial y repite la sentadilla, esta vez girando el torso hacia el lado opuesto.",
         "Continúa alternando los lados en cada repetición de la sentadilla."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1686-5BZHW9s.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1686-5BZHW9s.gif"
+    ]
   },
   {
     "id": "3291",
@@ -8722,7 +9838,11 @@
         "Haz una pausa de un momento en la parte baja de la sentadilla, luego empuja con los talones para levantarte mientras al mismo tiempo elevas de nuevo los brazos por encima de la cabeza.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3291-zd4P4B2.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3291-zd4P4B2.gif"
+    ]
   },
   {
     "id": "3669",
@@ -8757,7 +9877,11 @@
         "Repite el movimiento, esta vez girando el torso hacia la izquierda y extendiendo el brazo izquierdo hacia adelante y el brazo derecho hacia atrás.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3669-JF8AkMX.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3669-JF8AkMX.gif"
+    ]
   },
   {
     "id": "1490",
@@ -8787,7 +9911,11 @@
         "Haz una pausa breve en la parte alta y luego baja lentamente los talones de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1490-6HmFgmx.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1490-6HmFgmx.gif"
+    ]
   },
   {
     "id": "1397",
@@ -8815,7 +9943,11 @@
         "Mantén la posición por un momento y luego baja lentamente los talones de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1397-XIHEoCG.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1397-XIHEoCG.gif"
+    ]
   },
   {
     "id": "1398",
@@ -8849,7 +9981,11 @@
         "Mantén el estiramiento durante 20-30 segundos.",
         "Repite con la otra pierna."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1398-qOKcgVP.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1398-qOKcgVP.gif"
+    ]
   },
   {
     "id": "0794",
@@ -8881,7 +10017,11 @@
         "Regresa a la posición inicial y repite del otro lado.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Lateral_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Lateral_Stretch/1.jpg"
+    ]
   },
   {
     "id": "1364",
@@ -8910,7 +10050,11 @@
         "Mantén la posición durante unos segundos, luego suelta y vuelve a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Pelvic_Tilt/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Pelvic_Tilt/1.jpg"
+    ]
   },
   {
     "id": "0795",
@@ -8939,7 +10083,11 @@
         "Haz una pausa de un momento en la parte superior y luego baja lentamente el pie derecho de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de pierna."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0795-C5jncD2.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0795-C5jncD2.gif"
+    ]
   },
   {
     "id": "3223",
@@ -8970,7 +10118,11 @@
         "Aterriza suavemente sobre la punta de los pies con las rodillas ligeramente flexionadas.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Star_Jump/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Star_Jump/1.jpg"
+    ]
   },
   {
     "id": "3314",
@@ -9000,7 +10152,11 @@
         "Mantén esta posición durante unos segundos, luego empújate de nuevo hacia arriba a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3314-HfqciZF.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3314-HfqciZF.gif"
+    ]
   },
   {
     "id": "3298",
@@ -9031,7 +10187,11 @@
         "Haz una pausa por un momento en la posición más baja, luego empuja con las manos para enderezar los brazos y levantar el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3298-BL3GHeY.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3298-BL3GHeY.gif"
+    ]
   },
   {
     "id": "1427",
@@ -9061,7 +10221,11 @@
         "Haz una pausa por un momento en la posición alta, luego baja lentamente la pierna de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de lado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1427-mQ1tBXn.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1427-mQ1tBXn.gif"
+    ]
   },
   {
     "id": "0803",
@@ -9093,7 +10257,11 @@
         "Repite el movimiento, esta vez levantando el brazo izquierdo y la pierna derecha.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Superman/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Superman/1.jpg"
+    ]
   },
   {
     "id": "0805",
@@ -9125,7 +10293,11 @@
         "Haz una pausa de un momento en la parte baja, luego eleva lentamente el cuerpo de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0805-X3TCNEU.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0805-X3TCNEU.gif"
+    ]
   },
   {
     "id": "0806",
@@ -9158,7 +10330,11 @@
         "Empuja con el pecho y los brazos para volver a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Suspended_Push-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Suspended_Push-Up/1.jpg"
+    ]
   },
   {
     "id": "0807",
@@ -9185,7 +10361,11 @@
         "Haz una pausa de un momento en la parte superior, luego baja lentamente las rodillas de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Suspended_Reverse_Crunch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Suspended_Reverse_Crunch/1.jpg"
+    ]
   },
   {
     "id": "0808",
@@ -9219,7 +10399,11 @@
         "Haz una pausa breve en la parte más alta, luego baja lentamente de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Suspended_Row/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Suspended_Row/1.jpg"
+    ]
   },
   {
     "id": "0809",
@@ -9250,7 +10434,11 @@
         "Empuja con el talón para regresar a la posición inicial.",
         "Repite el número de repeticiones deseado, luego cambia de pierna."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Suspended_Split_Squat/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Suspended_Split_Squat/1.jpg"
+    ]
   },
   {
     "id": "3433",
@@ -9281,7 +10469,11 @@
         "Continúa el movimiento de patada el número de repeticiones deseado.",
         "Baja el pecho y las piernas de nuevo a la posición inicial."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3433-SP3hUez.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3433-SP3hUez.gif"
+    ]
   },
   {
     "id": "3318",
@@ -9311,7 +10503,11 @@
         "Continúa el movimiento circular, moviendo los brazos y rotando el torso el número de repeticiones deseado.",
         "Recuerda respirar durante todo el ejercicio."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3318-tnaj0mT.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3318-tnaj0mT.gif"
+    ]
   },
   {
     "id": "1753",
@@ -9341,7 +10537,11 @@
         "Empújate de vuelta hacia arriba hasta la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1753-DQ0cqkT.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1753-DQ0cqkT.gif"
+    ]
   },
   {
     "id": "0814",
@@ -9371,7 +10571,11 @@
         "Haz una pausa por un momento en la parte inferior, luego empuja tu cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0814-X6C6i5Y.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0814-X6C6i5Y.gif"
+    ]
   },
   {
     "id": "0812",
@@ -9401,7 +10605,11 @@
         "Empuja con las palmas para estirar los brazos y regresar a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0812-VuoerH0.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0812-VuoerH0.gif"
+    ]
   },
   {
     "id": "0813",
@@ -9431,7 +10639,11 @@
         "Haz una pausa por un momento en la parte inferior, luego empuja tu cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0813-Wgbn9qo.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0813-Wgbn9qo.gif"
+    ]
   },
   {
     "id": "0815",
@@ -9463,7 +10675,11 @@
         "Cuando llegues al punto más bajo del movimiento, empuja hacia abajo contra la silla para estirar los codos, volviendo a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0815-7aVz15j.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0815-7aVz15j.gif"
+    ]
   },
   {
     "id": "0816",
@@ -9492,7 +10708,11 @@
         "Haz una pausa por un momento en la parte inferior, luego empuja tu cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Close-Grip_Barbell_Triceps_Press_To_Chin/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Close-Grip_Barbell_Triceps_Press_To_Chin/1.jpg"
+    ]
   },
   {
     "id": "0817",
@@ -9521,7 +10741,11 @@
         "Mantén el estiramiento de 15 a 30 segundos, sintiendo un estiramiento suave en el tríceps.",
         "Suelta el estiramiento y repite con el otro brazo."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Triceps_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Triceps_Stretch/1.jpg"
+    ]
   },
   {
     "id": "0871",
@@ -9550,7 +10774,11 @@
         "Haz una pausa de un momento en la parte superior, luego baja lentamente los omóplatos y extiende las piernas de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Tuck_Crunch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Tuck_Crunch/1.jpg"
+    ]
   },
   {
     "id": "1466",
@@ -9582,7 +10810,11 @@
         "Vuelve a la posición inicial y repite el giro hacia el lado izquierdo.",
         "Continúa alternando los giros el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1466-AX1kB0o.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1466-AX1kB0o.gif"
+    ]
   },
   {
     "id": "2802",
@@ -9616,7 +10848,11 @@
         "Repite el movimiento, esta vez girando las caderas hacia el otro lado.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2802-C0eCeEt.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2802-C0eCeEt.gif"
+    ]
   },
   {
     "id": "2801",
@@ -9648,7 +10884,11 @@
         "Repite el movimiento, esta vez girando las caderas hacia el otro lado.",
         "Continúa alternando lados durante el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2801-yT9tk17.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2801-yT9tk17.gif"
+    ]
   },
   {
     "id": "3231",
@@ -9678,7 +10918,11 @@
         "Haz una pausa por un momento en la parte inferior, luego regresa lentamente a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3231-p195zsJ.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3231-p195zsJ.gif"
+    ]
   },
   {
     "id": "1365",
@@ -9709,7 +10953,11 @@
         "Mientras elevas los brazos, aprieta los omóplatos entre sí.",
         "Mantén el estiramiento de 15 a 30 segundos, luego suelta y repite."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Upper_Back_Stretch/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Upper_Back_Stretch/1.jpg"
+    ]
   },
   {
     "id": "1366",
@@ -9741,7 +10989,11 @@
         "Mantén esta posición durante unas cuantas respiraciones, luego baja lentamente el cuerpo de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1366-01qpYSe.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1366-01qpYSe.gif"
+    ]
   },
   {
     "id": "3420",
@@ -9770,7 +11022,11 @@
         "Mantén esta posición durante unos segundos, luego baja lentamente la parte superior del cuerpo y las piernas de nuevo a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3420-ZuXu4Eq.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3420-ZuXu4Eq.gif"
+    ]
   },
   {
     "id": "0826",
@@ -9799,7 +11055,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente las piernas de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0826-ZNgOYQU.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0826-ZNgOYQU.gif"
+    ]
   },
   {
     "id": "3655",
@@ -9835,7 +11095,11 @@
         "Continúa alternando las piernas y avanzando con zancadas, manteniendo el core activado y un ritmo constante.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3655-J9zIWig.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3655-J9zIWig.gif"
+    ]
   },
   {
     "id": "1460",
@@ -9868,7 +11132,11 @@
         "Continúa alternando las piernas y avanzando, manteniendo un ritmo controlado y constante.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Walking_Lunge/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Walking_Lunge/1.jpg"
+    ]
   },
   {
     "id": "3637",
@@ -9899,7 +11167,11 @@
         "Invierte el movimiento tirando del rodillo de vuelta hacia tu cuerpo, usando el core y los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3637-km2Ljzj.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3637-km2Ljzj.gif"
+    ]
   },
   {
     "id": "1429",
@@ -9929,7 +11201,11 @@
         "Baja el cuerpo de nuevo a la posición inicial con control.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1429-Qqi7bko.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1429-Qqi7bko.gif"
+    ]
   },
   {
     "id": "1367",
@@ -9961,7 +11237,11 @@
         "Haz una pausa por un momento en la parte superior, luego baja lentamente el cuerpo de vuelta a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Rear_Pull-Up/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Rear_Pull-Up/1.jpg"
+    ]
   },
   {
     "id": "1311",
@@ -9991,7 +11271,11 @@
         "Empuja con las palmas para extender los brazos y regresar a la posición inicial.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1311-JmMVpR3.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1311-JmMVpR3.gif"
+    ]
   },
   {
     "id": "2363",
@@ -10019,7 +11303,11 @@
         "Haz una pausa breve, luego empújate de nuevo hacia arriba a la posición inicial estirando los brazos.",
         "Repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2363-O2K9Vb5.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2363-O2K9Vb5.gif"
+    ]
   },
   {
     "id": "0858",
@@ -10050,7 +11338,11 @@
         "Continúa el sprint durante una distancia o periodo de tiempo específico.",
         "Descansa y repite el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wind_Sprints/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wind_Sprints/1.jpg"
+    ]
   },
   {
     "id": "1604",
@@ -10083,7 +11375,11 @@
         "Mantén esta posición durante unos segundos, luego vuelve a la posición inicial.",
         "Cambia de lado y repite el estiramiento con el pie izquierdo adelante."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1604-DFGXwZr.jpg",
+      "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1604-DFGXwZr.gif"
+    ]
   },
   {
     "id": "1428",
@@ -10111,6 +11407,10 @@
         "Gira las muñecas en un movimiento circular, manteniendo los brazos quietos.",
         "Continúa los círculos de muñeca el número de repeticiones deseado."
       ]
-    }
+    },
+    "images": [
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wrist_Circles/0.jpg",
+      "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wrist_Circles/1.jpg"
+    ]
   }
 ]

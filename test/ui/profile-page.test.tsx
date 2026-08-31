@@ -12,7 +12,7 @@ describe('ProfilePage Integration (Strict TDD)', () => {
     useSavedRoutineStore.getState().reset();
   });
 
-  it('renders profile form with age, weight, height inputs', () => {
+  it('renders profile form with age, weight, height inputs and default lbs unit', () => {
     render(
       <MemoryRouter>
         <ProfilePage />
@@ -20,11 +20,10 @@ describe('ProfilePage Integration (Strict TDD)', () => {
     );
 
     expect(screen.getByLabelText(/edad/i)).toBeInTheDocument();
-    expect(screen.getByLabelText(/peso/i)).toBeInTheDocument();
+    expect(screen.getByLabelText(/peso \(lbs\)/i)).toBeInTheDocument();
     expect(screen.getByLabelText(/altura/i)).toBeInTheDocument();
-    expect(screen.getByText('Principiante')).toBeInTheDocument();
-    expect(screen.getByText('Intermedio')).toBeInTheDocument();
-    expect(screen.getByText('Avanzado')).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'lbs' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'kg' })).toBeInTheDocument();
   });
 
   it('disables submit and generate buttons when fields are empty', () => {
@@ -43,7 +42,26 @@ describe('ProfilePage Integration (Strict TDD)', () => {
     expect(generateButton).toBeDisabled();
   });
 
-  it('enables buttons and saves profile on valid submission', () => {
+  it('allows entering weight in lbs by default and converts value when toggled to kg', () => {
+    render(
+      <MemoryRouter>
+        <ProfilePage />
+      </MemoryRouter>
+    );
+
+    const weightInput = screen.getByLabelText(/peso \(lbs\)/i) as HTMLInputElement;
+    fireEvent.change(weightInput, { target: { value: '165' } });
+
+    // Toggle unit to kg
+    const kgButton = screen.getByRole('button', { name: 'kg' });
+    fireEvent.click(kgButton);
+
+    // Converted to kg (165 * 0.45359237 ≈ 74.84)
+    expect(screen.getByLabelText(/peso \(kg\)/i)).toBeInTheDocument();
+    expect(parseFloat(weightInput.value)).toBeCloseTo(74.84, 1);
+  });
+
+  it('enables buttons and saves profile with weightUnit on valid submission', () => {
     render(
       <MemoryRouter>
         <ProfilePage />
@@ -51,11 +69,11 @@ describe('ProfilePage Integration (Strict TDD)', () => {
     );
 
     const ageInput = screen.getByLabelText(/edad/i);
-    const weightInput = screen.getByLabelText(/peso/i);
+    const weightInput = screen.getByLabelText(/peso \(lbs\)/i);
     const heightInput = screen.getByLabelText(/altura/i);
 
     fireEvent.change(ageInput, { target: { value: '28' } });
-    fireEvent.change(weightInput, { target: { value: '75' } });
+    fireEvent.change(weightInput, { target: { value: '165' } });
     fireEvent.change(heightInput, { target: { value: '178' } });
 
     const saveButton = screen.getByRole('button', { name: /guardar perfil/i });
@@ -66,7 +84,8 @@ describe('ProfilePage Integration (Strict TDD)', () => {
     const storedProfile = useProfileStore.getState().profile;
     expect(storedProfile).toEqual({
       age: 28,
-      weight: 75,
+      weight: 165,
+      weightUnit: 'lbs',
       height: 178,
       sex: 'male',
       experience: 'beginner',

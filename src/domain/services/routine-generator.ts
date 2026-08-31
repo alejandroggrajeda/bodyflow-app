@@ -1,4 +1,4 @@
-import { UserProfile, ExperienceLevel } from '../entities/user-profile.ts';
+import { UserProfile, ExperienceLevel, toKg } from '../entities/user-profile.ts';
 import { Routine, RoutineDay, RoutineExercise } from '../entities/routine.ts';
 import { Exercise } from '../entities/exercise.ts';
 
@@ -15,7 +15,8 @@ function createPRNG(seed: number) {
 
 // Seed derivation from user profile fields
 function deriveProfileSeed(profile: UserProfile): number {
-  let hash = profile.age * 31 + Math.round(profile.weight * 17) + Math.round(profile.height * 13);
+  const normalizedWeightKg = toKg(profile.weight, profile.weightUnit || 'lbs');
+  let hash = profile.age * 31 + Math.round(normalizedWeightKg * 17) + Math.round(profile.height * 13);
   for (let i = 0; i < profile.sex.length; i++) {
     hash = (hash * 33 + profile.sex.charCodeAt(i)) >>> 0;
   }

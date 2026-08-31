@@ -3,6 +3,8 @@ import {
   UserProfile,
   ExperienceLevel,
   Sex,
+  WeightUnit,
+  convertWeight,
   calculateBMI,
   getBMICategory,
 } from '../../../domain/entities/user-profile.ts';
@@ -20,6 +22,9 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
   onGenerate,
 }) => {
   const [age, setAge] = useState<string>(initialProfile?.age?.toString() || '');
+  const [weightUnit, setWeightUnit] = useState<WeightUnit>(
+    initialProfile?.weightUnit || 'lbs'
+  );
   const [weight, setWeight] = useState<string>(
     initialProfile?.weight?.toString() || ''
   );
@@ -37,31 +42,49 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
   const numWeight = parseFloat(weight);
   const numHeight = parseFloat(height);
 
+  const minWeight = weightUnit === 'lbs' ? 44 : 20;
+  const maxWeight = weightUnit === 'lbs' ? 660 : 300;
+
   const isValid =
     !isNaN(numAge) &&
     numAge >= 10 &&
     numAge <= 99 &&
     !isNaN(numWeight) &&
-    numWeight >= 20 &&
-    numWeight <= 300 &&
+    numWeight >= minWeight &&
+    numWeight <= maxWeight &&
     !isNaN(numHeight) &&
     numHeight >= 100 &&
     numHeight <= 250;
 
   const currentBMI =
     !isNaN(numWeight) && !isNaN(numHeight) && numHeight > 0
-      ? calculateBMI(numWeight, numHeight)
+      ? calculateBMI(numWeight, numHeight, weightUnit)
       : null;
 
   const bmiCategory = currentBMI ? getBMICategory(currentBMI) : null;
+
+  const handleUnitToggle = (unit: WeightUnit) => {
+    if (unit === weightUnit) return;
+    if (weight && !isNaN(parseFloat(weight))) {
+      const converted = convertWeight(parseFloat(weight), weightUnit, unit);
+      setWeight(converted.toString());
+    }
+    setWeightUnit(unit);
+    // Clear weight error on switch
+    setErrors((prev) => {
+      const copy = { ...prev };
+      delete copy.weight;
+      return copy;
+    });
+  };
 
   const validate = (): boolean => {
     const newErrors: { [key: string]: string } = {};
     if (isNaN(numAge) || numAge < 10 || numAge > 99) {
       newErrors.age = 'Edad válida entre 10 y 99 años';
     }
-    if (isNaN(numWeight) || numWeight < 20 || numWeight > 300) {
-      newErrors.weight = 'Peso válido entre 20 y 300 kg';
+    if (isNaN(numWeight) || numWeight < minWeight || numWeight > maxWeight) {
+      newErrors.weight = `Peso válido entre ${minWeight} y ${maxWeight} ${weightUnit}`;
     }
     if (isNaN(numHeight) || numHeight < 100 || numHeight > 250) {
       newErrors.height = 'Altura válida entre 100 y 250 cm';
@@ -73,6 +96,7 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
   const getProfileData = (): UserProfile => ({
     age: numAge,
     weight: numWeight,
+    weightUnit,
     height: numHeight,
     sex,
     experience,
@@ -124,22 +148,51 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
           )}
         </div>
 
-        {/* Weight */}
+        {/* Weight with Unit Switch */}
         <div>
-          <label
-            htmlFor="profile-weight"
-            className="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-2 flex items-center gap-1.5"
-          >
-            <Scale className="w-3.5 h-3.5 text-emerald-400" />
-            Peso (kg)
-          </label>
+          <div className="flex items-center justify-between mb-2">
+            <label
+              htmlFor="profile-weight"
+              className="text-xs font-semibold text-zinc-300 uppercase tracking-wider flex items-center gap-1.5"
+            >
+              <Scale className="w-3.5 h-3.5 text-emerald-400" />
+              Peso ({weightUnit})
+            </label>
+
+            {/* lbs / kg Switcher */}
+            <div className="flex items-center rounded-lg bg-zinc-950 p-0.5 border border-zinc-800">
+              <button
+                type="button"
+                onClick={() => handleUnitToggle('lbs')}
+                className={`px-2 py-0.5 text-[11px] font-bold rounded-md transition-all ${
+                  weightUnit === 'lbs'
+                    ? 'bg-emerald-500 text-black shadow-sm'
+                    : 'text-zinc-400 hover:text-zinc-200'
+                }`}
+              >
+                lbs
+              </button>
+              <button
+                type="button"
+                onClick={() => handleUnitToggle('kg')}
+                className={`px-2 py-0.5 text-[11px] font-bold rounded-md transition-all ${
+                  weightUnit === 'kg'
+                    ? 'bg-emerald-500 text-black shadow-sm'
+                    : 'text-zinc-400 hover:text-zinc-200'
+                }`}
+              >
+                kg
+              </button>
+            </div>
+          </div>
+
           <input
             id="profile-weight"
             type="number"
             step="0.1"
-            min={20}
-            max={300}
-            placeholder="ej. 75.5"
+            min={minWeight}
+            max={maxWeight}
+            placeholder={weightUnit === 'lbs' ? 'ej. 165' : 'ej. 75.5'}
             value={weight}
             onChange={(e) => setWeight(e.target.value)}
             className={`w-full min-h-[44px] px-3.5 py-2.5 rounded-xl bg-zinc-900 border text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 transition-colors ${

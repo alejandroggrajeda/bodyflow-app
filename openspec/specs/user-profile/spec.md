@@ -11,21 +11,23 @@ This profile is the sole input to the routine generation engine.
 
 The system MUST collect the following fields from the user:
 - `age` (integer, years, range 10–99)
-- `weight` (number, kilograms, range 20–300)
+- `weight` (number, range in selected unit: 44–660 lbs, 20–300 kg)
+- `targetWeight` (number, range in selected unit: 44–660 lbs, 20–300 kg)
+- `weightUnit` (enum: `lbs` | `kg`, default `lbs`)
 - `height` (number, centimetres, range 100–250)
 - `sex` (enum: `male` | `female` | `other`)
 - `experience` (enum: `beginner` | `intermediate` | `advanced`)
 
-#### Scenario: Valid profile submission
+#### Scenario: Valid profile submission with target weight
 
-- GIVEN the user has filled all fields with valid values
+- GIVEN the user has filled all fields including targetWeight with valid values
 - WHEN the user submits the profile form
 - THEN the system MUST persist the profile to localStorage under the key `bodyflow:profile`
 - AND display a confirmation that the profile was saved
 
-#### Scenario: Invalid field value
+#### Scenario: Missing or invalid field value
 
-- GIVEN the user enters an out-of-range value (e.g. age = 0)
+- GIVEN the user enters an out-of-range value (e.g. age = 0 or invalid targetWeight)
 - WHEN the user attempts to submit
 - THEN the system MUST prevent submission and display a field-level validation error
 - AND MUST NOT overwrite any previously saved profile

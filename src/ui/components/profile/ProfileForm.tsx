@@ -4,6 +4,7 @@ import {
   ExperienceLevel,
   Sex,
   WeightUnit,
+  EquipmentAccess,
   convertWeight,
   calculateBMI,
   getBMICategory,
@@ -16,6 +17,7 @@ import {
   Calendar,
   Award,
   Target,
+  ShieldCheck,
 } from 'lucide-react';
 
 interface ProfileFormProps {
@@ -38,6 +40,9 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
   );
   const [targetWeight, setTargetWeight] = useState<string>(
     initialProfile?.targetWeight?.toString() || ''
+  );
+  const [equipmentAccess, setEquipmentAccess] = useState<EquipmentAccess>(
+    initialProfile?.equipmentAccess || 'all'
   );
   const [height, setHeight] = useState<string>(
     initialProfile?.height?.toString() || ''
@@ -129,6 +134,7 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
     weight: numWeight,
     targetWeight: numTargetWeight,
     weightUnit,
+    equipmentAccess,
     height: numHeight,
     sex,
     experience,
@@ -289,6 +295,59 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
           {errors.height && (
             <p className="text-red-400 text-xs mt-1.5">{errors.height}</p>
           )}
+        </div>
+      </div>
+
+      {/* Equipment Access Preference */}
+      <div>
+        <label className="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+          <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+          Disponibilidad de Equipo para tus Rutinas
+        </label>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+          <button
+            type="button"
+            onClick={() => setEquipmentAccess('all')}
+            className={`min-h-[56px] p-3 rounded-2xl border text-left flex flex-col justify-center transition-all ${
+              equipmentAccess === 'all'
+                ? 'bg-emerald-950/40 border-emerald-500/80 shadow-md shadow-emerald-500/10'
+                : 'bg-zinc-900/80 border-zinc-800 hover:border-zinc-700'
+            }`}
+          >
+            <span
+              className={`text-xs font-bold ${
+                equipmentAccess === 'all' ? 'text-emerald-400' : 'text-zinc-200'
+              }`}
+            >
+              Todo el Equipamiento (Barras / Apoyo)
+            </span>
+            <span className="text-[11px] text-zinc-400 mt-0.5">
+              Incluye dominadas, fondos y calistenia completa
+            </span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setEquipmentAccess('floor-only')}
+            className={`min-h-[56px] p-3 rounded-2xl border text-left flex flex-col justify-center transition-all ${
+              equipmentAccess === 'floor-only'
+                ? 'bg-emerald-950/40 border-emerald-500/80 shadow-md shadow-emerald-500/10'
+                : 'bg-zinc-900/80 border-zinc-800 hover:border-zinc-700'
+            }`}
+          >
+            <span
+              className={`text-xs font-bold ${
+                equipmentAccess === 'floor-only'
+                  ? 'text-emerald-400'
+                  : 'text-zinc-200'
+              }`}
+            >
+              Solo Suelo (100% Sin Equipo)
+            </span>
+            <span className="text-[11px] text-zinc-400 mt-0.5">
+              Solo ejercicios en piso sin barras ni mobiliario
+            </span>
+          </button>
         </div>
       </div>
 

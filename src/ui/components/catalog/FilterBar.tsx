@@ -1,6 +1,7 @@
 import React from 'react';
-import { Search, X, Dumbbell } from 'lucide-react';
+import { Search, X, Dumbbell, ShieldCheck } from 'lucide-react';
 import { useExerciseStore } from '../../../application/store/exercise-store.ts';
+import { EquipmentFilterOption } from '../../../domain/entities/exercise.ts';
 
 const BODY_PART_LABELS: Record<string, { es: string; en: string }> = {
   all: { es: 'Todos', en: 'All' },
@@ -23,10 +24,19 @@ export const FilterBar: React.FC = () => {
     setSearchQuery,
     selectedBodyPart,
     setSelectedBodyPart,
+    equipmentFilter,
+    setEquipmentFilter,
     availableBodyParts,
     filteredExercises,
     language,
+    resetFilters,
   } = useExerciseStore();
+
+  const equipmentOptions: { id: EquipmentFilterOption; labelEs: string; labelEn: string }[] = [
+    { id: 'all', labelEs: 'Todo el Catálogo', labelEn: 'All Types' },
+    { id: 'floor-only', labelEs: 'Solo Suelo (Sin Equipo)', labelEn: 'Floor Only (No Equipment)' },
+    { id: 'apparatus', labelEs: 'Con Barra / Apoyo', labelEn: 'With Bar / Support' },
+  ];
 
   return (
     <div className="w-full space-y-3 sticky top-0 z-20 bg-zinc-950/90 backdrop-blur-md pt-3 pb-2 border-b border-zinc-800/80">
@@ -55,6 +65,27 @@ export const FilterBar: React.FC = () => {
             <X className="w-5 h-5" />
           </button>
         )}
+      </div>
+
+      {/* Equipment Filter Pill Group */}
+      <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5">
+        {equipmentOptions.map((opt) => {
+          const isActive = equipmentFilter === opt.id;
+          return (
+            <button
+              key={opt.id}
+              onClick={() => setEquipmentFilter(opt.id)}
+              className={`px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all min-h-[36px] flex items-center gap-1.5 ${
+                isActive
+                  ? 'bg-emerald-500 text-zinc-950 shadow-sm'
+                  : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-zinc-700 hover:text-zinc-200'
+              }`}
+            >
+              {opt.id === 'floor-only' && <ShieldCheck className="w-3.5 h-3.5" />}
+              <span>{language === 'es' ? opt.labelEs : opt.labelEn}</span>
+            </button>
+          );
+        })}
       </div>
 
       {/* Horizontal Scrollable Categories */}
@@ -90,12 +121,9 @@ export const FilterBar: React.FC = () => {
           <strong className="text-zinc-200 font-semibold">{filteredExercises.length}</strong>{' '}
           {language === 'es' ? 'ejercicios de peso corporal' : 'bodyweight exercises'}
         </span>
-        {(searchQuery || selectedBodyPart !== 'all') && (
+        {(searchQuery || selectedBodyPart !== 'all' || equipmentFilter !== 'all') && (
           <button
-            onClick={() => {
-              setSearchQuery('');
-              setSelectedBodyPart('all');
-            }}
+            onClick={resetFilters}
             className="text-emerald-400 hover:text-emerald-300 transition-colors font-medium cursor-pointer"
           >
             {language === 'es' ? 'Restablecer filtros' : 'Reset filters'}

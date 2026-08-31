@@ -1,6 +1,6 @@
 import { UserProfile, ExperienceLevel, toKg } from '../entities/user-profile.ts';
 import { Routine, RoutineDay, RoutineExercise } from '../entities/routine.ts';
-import { Exercise } from '../entities/exercise.ts';
+import { Exercise, classifyEquipment } from '../entities/exercise.ts';
 
 // Deterministic pseudo-random number generator (Mulberry32)
 function createPRNG(seed: number) {
@@ -155,9 +155,17 @@ export function generateRoutine(
   const split = SPLIT_CONFIGS[profile.experience];
   const volume = VOLUME_CONFIG[profile.experience];
 
+  const isFloorOnly = profile.equipmentAccess === 'floor-only';
+  const availablePool = allExercises
+    .map((ex) => ({
+      ...ex,
+      equipmentRequirement: ex.equipmentRequirement || classifyEquipment(ex),
+    }))
+    .filter((ex) => (isFloorOnly ? ex.equipmentRequirement === 'none' : true));
+
   const routineDays: RoutineDay[] = split.days.map((dayPlan, index) => {
-    // Collect exercises matching this day's target body parts / categories
-    const matching = allExercises.filter((ex) => {
+    // Collect exercises matching this day's target body parts / categories from availablePool
+    const matching = availablePool.filter((ex) => {
       const part = ex.bodyPart.toLowerCase();
       const cat = ex.category.toLowerCase();
       return (
@@ -167,9 +175,9 @@ export function generateRoutine(
 
     let selectedList = seededShuffle(matching, prng);
 
-    // If we have fewer than minimum (e.g. 3), backfill from other exercises
+    // If we have fewer than minimum (e.g. 3), backfill from other available exercises
     if (selectedList.length < 3) {
-      const remaining = allExercises.filter((ex) => !selectedList.some((s) => s.id === ex.id));
+      const remaining = availablePool.filter((ex) => !selectedList.some((s) => s.id === ex.id));
       const backfill = seededShuffle(remaining, prng);
       selectedList = [...selectedList, ...backfill].slice(0, Math.max(3, dayPlan.minExercises));
     } else {

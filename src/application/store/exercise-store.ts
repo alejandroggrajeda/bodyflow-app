@@ -1,5 +1,8 @@
 import { create } from 'zustand';
-import { Exercise } from '../../domain/entities/exercise.ts';
+import {
+  Exercise,
+  EquipmentFilterOption,
+} from '../../domain/entities/exercise.ts';
 import { StaticExerciseRepository } from '../../infrastructure/repositories/static-exercise-repository.ts';
 
 const repository = new StaticExerciseRepository();
@@ -12,6 +15,7 @@ export interface ExerciseState {
   availableBodyParts: string[];
   searchQuery: string;
   selectedBodyPart: string;
+  equipmentFilter: EquipmentFilterOption;
   selectedExerciseId: string | null;
   selectedExercise: Exercise | null;
   isDetailOpen: boolean;
@@ -21,6 +25,7 @@ export interface ExerciseState {
   initialize: () => Promise<void>;
   setSearchQuery: (query: string) => void;
   setSelectedBodyPart: (bodyPart: string) => void;
+  setEquipmentFilter: (filter: EquipmentFilterOption) => void;
   resetFilters: () => void;
   openExerciseDetail: (id: string) => void;
   closeExerciseDetail: () => void;
@@ -31,7 +36,8 @@ export interface ExerciseState {
 const applyFilters = (
   exercises: Exercise[],
   query: string,
-  bodyPart: string
+  bodyPart: string,
+  equipmentFilter: EquipmentFilterOption
 ): Exercise[] => {
   const normalizedQuery = query.trim().toLowerCase();
   const normalizedPart = bodyPart.toLowerCase();
@@ -49,6 +55,12 @@ const applyFilters = (
       if (!matchPart && !matchCategory) return false;
     }
 
+    if (equipmentFilter && equipmentFilter !== 'all') {
+      const req = ex.equipmentRequirement || 'none';
+      if (equipmentFilter === 'floor-only' && req !== 'none') return false;
+      if (equipmentFilter === 'apparatus' && req === 'none') return false;
+    }
+
     return true;
   });
 };
@@ -59,6 +71,7 @@ export const useExerciseStore = create<ExerciseState>((set, get) => ({
   availableBodyParts: [],
   searchQuery: '',
   selectedBodyPart: 'all',
+  equipmentFilter: 'all',
   selectedExerciseId: null,
   selectedExercise: null,
   isDetailOpen: false,
@@ -78,18 +91,41 @@ export const useExerciseStore = create<ExerciseState>((set, get) => ({
   },
 
   setSearchQuery: (query: string) => {
-    const { exercises, selectedBodyPart } = get();
+    const { exercises, selectedBodyPart, equipmentFilter } = get();
     set({
       searchQuery: query,
-      filteredExercises: applyFilters(exercises, query, selectedBodyPart),
+      filteredExercises: applyFilters(
+        exercises,
+        query,
+        selectedBodyPart,
+        equipmentFilter
+      ),
     });
   },
 
   setSelectedBodyPart: (bodyPart: string) => {
-    const { exercises, searchQuery } = get();
+    const { exercises, searchQuery, equipmentFilter } = get();
     set({
       selectedBodyPart: bodyPart,
-      filteredExercises: applyFilters(exercises, searchQuery, bodyPart),
+      filteredExercises: applyFilters(
+        exercises,
+        searchQuery,
+        bodyPart,
+        equipmentFilter
+      ),
+    });
+  },
+
+  setEquipmentFilter: (filter: EquipmentFilterOption) => {
+    const { exercises, searchQuery, selectedBodyPart } = get();
+    set({
+      equipmentFilter: filter,
+      filteredExercises: applyFilters(
+        exercises,
+        searchQuery,
+        selectedBodyPart,
+        filter
+      ),
     });
   },
 
@@ -98,6 +134,7 @@ export const useExerciseStore = create<ExerciseState>((set, get) => ({
     set({
       searchQuery: '',
       selectedBodyPart: 'all',
+      equipmentFilter: 'all',
       filteredExercises: exercises,
     });
   },
@@ -131,6 +168,7 @@ export const useExerciseStore = create<ExerciseState>((set, get) => ({
       availableBodyParts: [],
       searchQuery: '',
       selectedBodyPart: 'all',
+      equipmentFilter: 'all',
       selectedExerciseId: null,
       selectedExercise: null,
       isDetailOpen: false,

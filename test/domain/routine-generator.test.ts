@@ -164,4 +164,33 @@ describe('RoutineGeneratorService (Strict TDD & Spec Compliance)', () => {
       }
     });
   });
+
+  describe('Equipment Access Constraints', () => {
+    it('generates a routine with 100% floor-only exercises when equipmentAccess is floor-only', () => {
+      const floorProfile: UserProfile = {
+        age: 26,
+        weight: 75,
+        targetWeight: 70,
+        weightUnit: 'kg',
+        equipmentAccess: 'floor-only',
+        height: 175,
+        sex: 'male',
+        experience: 'intermediate',
+      };
+
+      const routine = generateRoutine(floorProfile, allExercises);
+      const exerciseMap = new Map(allExercises.map((e) => [e.id, e]));
+
+      for (const day of routine.days) {
+        for (const item of day.exercises) {
+          const ex = exerciseMap.get(item.exerciseId);
+          expect(ex).toBeDefined();
+          const name = ex!.name.toLowerCase();
+          expect(name).not.toContain('pull-up');
+          expect(name).not.toContain('chin-up');
+          expect(name).not.toContain('straight bar');
+        }
+      }
+    });
+  });
 });

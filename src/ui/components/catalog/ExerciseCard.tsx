@@ -12,6 +12,10 @@ export const ExerciseCard: React.FC<ExerciseCardProps> = ({ exercise }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
 
+  const req = exercise.equipmentRequirement || 'none';
+  const equipmentLabel =
+    req === 'none' ? 'Sin Equipo' : req === 'bar' ? 'Barra' : 'Apoyo';
+
   return (
     <article
       onClick={() => openExerciseDetail(exercise.id)}
@@ -54,10 +58,19 @@ export const ExerciseCard: React.FC<ExerciseCardProps> = ({ exercise }) => {
           />
         )}
 
-        {/* Floating Muscle Tag */}
-        <div className="absolute top-2 left-2">
-          <span className="px-2.5 py-1 bg-zinc-950/85 backdrop-blur-md border border-zinc-700/50 text-emerald-400 text-[11px] font-semibold rounded-lg shadow-sm">
+        {/* Floating Muscle Tag & Equipment Badge */}
+        <div className="absolute top-2 left-2 flex flex-col gap-1 items-start">
+          <span className="px-2 py-0.5 bg-zinc-950/85 backdrop-blur-md border border-zinc-700/50 text-emerald-400 text-[10px] font-semibold rounded-lg shadow-sm">
             {exercise.targetMuscle}
+          </span>
+          <span
+            className={`px-1.5 py-0.5 backdrop-blur-md text-[9px] font-bold uppercase tracking-wider rounded-md border ${
+              req === 'none'
+                ? 'bg-zinc-900/90 text-zinc-300 border-zinc-700/60'
+                : 'bg-amber-500/20 text-amber-300 border-amber-500/30'
+            }`}
+          >
+            {equipmentLabel}
           </span>
         </div>
       </div>

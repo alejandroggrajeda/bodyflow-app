@@ -8,9 +8,10 @@ describe('StaticExerciseRepository', () => {
     repository = new StaticExerciseRepository();
   });
 
-  it('should load all 325 bodyweight exercises', async () => {
+  it('should load all 325 bodyweight exercises and classify them', async () => {
     const exercises = await repository.getAll();
     expect(exercises.length).toBe(325);
+    expect(exercises[0].equipmentRequirement).toBeDefined();
   });
 
   it('should find exercise by ID', async () => {
@@ -39,6 +40,24 @@ describe('StaticExerciseRepository', () => {
     expect(results.length).toBeGreaterThan(0);
     results.forEach((ex) => {
       expect(ex.bodyPart.toLowerCase()).toBe('chest');
+    });
+  });
+
+  it('should filter exercises by floor-only (zero equipment)', async () => {
+    const results = await repository.search({ equipmentFilter: 'floor-only' });
+    expect(results.length).toBeGreaterThan(0);
+    results.forEach((ex) => {
+      expect(ex.equipmentRequirement).toBe('none');
+      expect(ex.name.toLowerCase()).not.toContain('pull-up');
+      expect(ex.name.toLowerCase()).not.toContain('chin-up');
+    });
+  });
+
+  it('should filter exercises by apparatus (bar or furniture)', async () => {
+    const results = await repository.search({ equipmentFilter: 'apparatus' });
+    expect(results.length).toBeGreaterThan(0);
+    results.forEach((ex) => {
+      expect(ex.equipmentRequirement).not.toBe('none');
     });
   });
 

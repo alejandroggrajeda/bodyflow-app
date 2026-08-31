@@ -67,7 +67,7 @@ describe('ProfilePage Integration (Strict TDD)', () => {
     expect(parseFloat(targetWeightInput.value)).toBeCloseTo(72.57, 1);
   });
 
-  it('enables buttons and saves profile with targetWeight on valid submission', () => {
+  it('enables buttons and saves profile with targetWeight and equipmentAccess on valid submission', () => {
     render(
       <MemoryRouter>
         <ProfilePage />
@@ -84,6 +84,10 @@ describe('ProfilePage Integration (Strict TDD)', () => {
     fireEvent.change(targetWeightInput, { target: { value: '160' } });
     fireEvent.change(heightInput, { target: { value: '178' } });
 
+    // Select floor-only
+    const floorButton = screen.getByText(/solo suelo \(100% sin equipo\)/i);
+    fireEvent.click(floorButton);
+
     const saveButton = screen.getByRole('button', { name: /guardar perfil/i });
     expect(saveButton).not.toBeDisabled();
 
@@ -95,6 +99,7 @@ describe('ProfilePage Integration (Strict TDD)', () => {
       weight: 180,
       targetWeight: 160,
       weightUnit: 'lbs',
+      equipmentAccess: 'floor-only',
       height: 178,
       sex: 'male',
       experience: 'beginner',

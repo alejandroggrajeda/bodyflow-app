@@ -1,4 +1,8 @@
-import { Exercise, ExerciseFilterCriteria } from '../../domain/entities/exercise.ts';
+import {
+  Exercise,
+  ExerciseFilterCriteria,
+  classifyEquipment,
+} from '../../domain/entities/exercise.ts';
 import { ExerciseRepository } from '../../domain/repositories/exercise-repository.ts';
 import rawExercises from '../data/exercises.json';
 
@@ -6,7 +10,10 @@ export class StaticExerciseRepository implements ExerciseRepository {
   private readonly exercises: Exercise[];
 
   constructor(exercises: Exercise[] = rawExercises as Exercise[]) {
-    this.exercises = exercises;
+    this.exercises = exercises.map((ex) => ({
+      ...ex,
+      equipmentRequirement: ex.equipmentRequirement || classifyEquipment(ex),
+    }));
   }
 
   async getAll(): Promise<Exercise[]> {
@@ -42,6 +49,15 @@ export class StaticExerciseRepository implements ExerciseRepository {
         const target = criteria.targetMuscle.toLowerCase();
         if (exercise.targetMuscle.toLowerCase() !== target) {
           return false;
+        }
+      }
+
+      if (criteria.equipmentFilter && criteria.equipmentFilter !== 'all') {
+        const req = exercise.equipmentRequirement || 'none';
+        if (criteria.equipmentFilter === 'floor-only') {
+          if (req !== 'none') return false;
+        } else if (criteria.equipmentFilter === 'apparatus') {
+          if (req === 'none') return false;
         }
       }
 

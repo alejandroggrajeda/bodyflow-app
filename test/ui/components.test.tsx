@@ -12,6 +12,7 @@ const mockExercise: Exercise = {
   category: 'waist',
   bodyPart: 'waist',
   equipment: 'body weight',
+  equipmentRequirement: 'none',
   targetMuscle: 'abs',
   secondaryMuscles: ['hip flexors', 'lower back'],
   thumbnailUrl: 'https://example.com/thumb.jpg',
@@ -29,11 +30,13 @@ describe('UI Components & Layout Verification', () => {
   });
 
   describe('FilterBar', () => {
-    it('should render search input and filter buttons', () => {
+    it('should render search input, category filters, and equipment filter buttons', () => {
       render(<FilterBar />);
       const searchInput = screen.getByRole('textbox');
       expect(searchInput).toBeInTheDocument();
       expect(screen.getByText('Todos')).toBeInTheDocument();
+      expect(screen.getByText('Solo Suelo (Sin Equipo)')).toBeInTheDocument();
+      expect(screen.getByText('Con Barra / Apoyo')).toBeInTheDocument();
     });
 
     it('should update search query on input change', () => {
@@ -49,14 +52,22 @@ describe('UI Components & Layout Verification', () => {
       fireEvent.click(chestBtn);
       expect(useExerciseStore.getState().selectedBodyPart).toBe('chest');
     });
+
+    it('should update equipment filter when equipment pill is clicked', () => {
+      render(<FilterBar />);
+      const floorBtn = screen.getByText('Solo Suelo (Sin Equipo)');
+      fireEvent.click(floorBtn);
+      expect(useExerciseStore.getState().equipmentFilter).toBe('floor-only');
+    });
   });
 
   describe('ExerciseCard (Zero Layout Shift)', () => {
-    it('should render exercise card with aspect-square container and muscle tag', () => {
+    it('should render exercise card with aspect-square container, muscle tag, and equipment badge', () => {
       const { container } = render(<ExerciseCard exercise={mockExercise} />);
       expect(screen.getByText('3/4 sit-up')).toBeInTheDocument();
       expect(screen.getByText('abs')).toBeInTheDocument();
-      
+      expect(screen.getByText('Sin Equipo')).toBeInTheDocument();
+
       // Zero Layout Shift container check
       const aspectBox = container.querySelector('.aspect-square');
       expect(aspectBox).not.toBeNull();

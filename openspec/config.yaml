@@ -1,0 +1,35 @@
+schema: spec-driven
+
+context: |
+  Tech stack: Vite + React 19 + TypeScript + Tailwind CSS + Zustand (Package Manager: pnpm)
+  Architecture: Clean Architecture (Domain / Application / Infrastructure / UI)
+  Testing: Vitest + React Testing Library (strict TDD enabled)
+  Data source: hasaneyldrm/exercises-dataset (bodyweight exercises + GIFs)
+  Design: Mobile-first, dark mode, Zero Layout Shift (CLS = 0)
+
+rules:
+  proposal:
+    - Include rollback plan for risky changes
+  specs:
+    - Use Given/When/Then for scenarios
+    - Use RFC 2119 keywords (MUST, SHALL, SHOULD, MAY)
+  design:
+    - Include sequence diagrams for complex flows
+    - Document architecture decisions with rationale
+    - Zero Layout Shift: Explicit aspect-ratio containers, reserved dimensions for media
+  tasks:
+    - Group by phase, use hierarchical numbering
+    - Keep tasks completable in one session
+  apply:
+    guidelines:
+      - Follow Clean Architecture layers and container-presentational pattern
+      - Maintain CLS = 0 with aspect-ratio boxes and skeleton placeholders
+      - Always use pnpm as package manager
+    tdd: true
+    test_command: "pnpm test"
+  verify:
+    test_command: "pnpm test"
+    build_command: "pnpm run build"
+    coverage_threshold: 80
+  archive:
+    - Warn before merging destructive deltas

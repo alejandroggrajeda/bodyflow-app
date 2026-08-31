@@ -85,11 +85,11 @@ describe('UI Components & Layout Verification', () => {
   });
 
   describe('ExerciseModal (Detail View & Language Toggle)', () => {
-    it('should render modal with animated gif container and instructions when open', () => {
+    it('should render modal with cinemagraph container and instructions when open', () => {
       useExerciseStore.getState().openExerciseDetail('0001');
       const { container } = render(<ExerciseModal />);
 
-      expect(screen.getByText('3/4 sit-up')).toBeInTheDocument();
+      expect(screen.getByText(/3\/4 sit-up/i)).toBeInTheDocument();
       expect(screen.getByText(/Instrucciones paso a paso/i)).toBeInTheDocument();
 
       // Zero Layout Shift container check

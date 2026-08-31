@@ -8,19 +8,20 @@ describe('StaticExerciseRepository', () => {
     repository = new StaticExerciseRepository();
   });
 
-  it('should load all 325 bodyweight exercises, classify them, and populate dual-frame images', async () => {
+  it('should load all canonical 233 bodyweight exercises, classify them, and populate dual-frame HD images', async () => {
     const exercises = await repository.getAll();
-    expect(exercises.length).toBe(325);
+    expect(exercises.length).toBe(233);
     expect(exercises[0].equipmentRequirement).toBeDefined();
     expect(exercises[0].images).toBeDefined();
     expect(exercises[0].images!.length).toBeGreaterThanOrEqual(2);
+    expect(exercises[0].images![0]).toContain('https://raw.githubusercontent.com/yuhonas/free-exercise-db');
   });
 
   it('should find exercise by ID', async () => {
     const exercise = await repository.getById('0001');
     expect(exercise).not.toBeNull();
     expect(exercise?.id).toBe('0001');
-    expect(exercise?.name).toBe('3/4 sit-up');
+    expect(exercise?.name.toLowerCase()).toBe('3/4 sit-up');
     expect(exercise?.bodyPart).toBe('waist');
   });
 
@@ -30,10 +31,10 @@ describe('StaticExerciseRepository', () => {
   });
 
   it('should filter exercises by search query', async () => {
-    const results = await repository.search({ searchQuery: 'push-up' });
+    const results = await repository.search({ searchQuery: 'push' });
     expect(results.length).toBeGreaterThan(0);
     results.forEach((ex) => {
-      expect(ex.name.toLowerCase()).toContain('push-up');
+      expect(ex.name.toLowerCase()).toContain('push');
     });
   });
 

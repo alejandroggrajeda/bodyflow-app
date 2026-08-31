@@ -10,8 +10,8 @@ describe('ExerciseStore (Zustand)', () => {
 
   it('should initialize with all exercises', () => {
     const state = useExerciseStore.getState();
-    expect(state.exercises.length).toBe(325);
-    expect(state.filteredExercises.length).toBe(325);
+    expect(state.exercises.length).toBe(233);
+    expect(state.filteredExercises.length).toBe(233);
     expect(state.isLoading).toBe(false);
   });
 
@@ -43,13 +43,13 @@ describe('ExerciseStore (Zustand)', () => {
     const store = useExerciseStore.getState();
     store.setSearchQuery('squat');
     store.setSelectedBodyPart('legs');
-    expect(useExerciseStore.getState().filteredExercises.length).toBeLessThan(325);
+    expect(useExerciseStore.getState().filteredExercises.length).toBeLessThan(233);
 
     store.resetFilters();
     const state = useExerciseStore.getState();
     expect(state.searchQuery).toBe('');
     expect(state.selectedBodyPart).toBe('all');
-    expect(state.filteredExercises.length).toBe(325);
+    expect(state.filteredExercises.length).toBe(233);
   });
 
   it('should open and close exercise detail modal with selected exercise', () => {

@@ -14,13 +14,14 @@ The system MUST collect the following fields from the user:
 - `weight` (number, range in selected unit: 44–660 lbs, 20–300 kg)
 - `targetWeight` (number, range in selected unit: 44–660 lbs, 20–300 kg)
 - `weightUnit` (enum: `lbs` | `kg`, default `lbs`)
+- `equipmentAccess` (enum: `all` | `floor-only`, default `all`)
 - `height` (number, centimetres, range 100–250)
 - `sex` (enum: `male` | `female` | `other`)
 - `experience` (enum: `beginner` | `intermediate` | `advanced`)
 
-#### Scenario: Valid profile submission with target weight
+#### Scenario: Valid profile submission with target weight and equipment access
 
-- GIVEN the user has filled all fields including targetWeight with valid values
+- GIVEN the user has filled all fields with valid values
 - WHEN the user submits the profile form
 - THEN the system MUST persist the profile to localStorage under the key `bodyflow:profile`
 - AND display a confirmation that the profile was saved

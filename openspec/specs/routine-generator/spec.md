@@ -54,21 +54,25 @@ The system MUST assign muscle groups to each day using a deterministic split:
 
 ### Requirement: Exercise Selection Per Day
 
-The system MUST select exercises from the existing dataset filtered by the day's assigned muscle groups.
+The system MUST select exercises from the existing dataset filtered by the day's assigned muscle groups AND the user's available equipment (`equipmentAccess`).
 
 Each day MUST include a minimum of 3 exercises and a maximum of 8 exercises.
 
 #### Scenario: Sufficient exercises exist for the muscle group
-
 - GIVEN the dataset has ≥ 3 exercises for the assigned muscle groups
 - WHEN exercises are selected for a day
 - THEN the day MUST contain between 3 and 8 exercises drawn from those groups
 
-#### Scenario: Insufficient exercises in dataset (edge case)
+#### Scenario: User with floor-only preference (zero equipment)
+- GIVEN a profile with `equipmentAccess = floor-only`
+- WHEN exercises are selected for a day
+- THEN the day MUST contain strictly exercises with `equipmentRequirement = none`
+- AND MUST NOT contain any exercise requiring pull-up bars, dip bars, or benches
 
+#### Scenario: Insufficient exercises in dataset (edge case)
 - GIVEN fewer than 3 exercises exist for a specific muscle group
 - WHEN exercises are selected for that day
-- THEN the engine MUST backfill with full-body or core exercises to reach the minimum of 3
+- THEN the engine MUST backfill with full-body or core exercises from the available equipment pool to reach the minimum of 3
 
 ### Requirement: Volume Calibration
 

@@ -2,16 +2,26 @@
 
 ## Purpose
 
-Provides a responsive, searchable, and filterable catalog of bodyweight calisthenics exercises with zero layout shifts and instant offline access.
+Provides a responsive, searchable, and filterable catalog of bodyweight calisthenics exercises with zero layout shifts, instant offline access, and 100% canonical high-definition studio photography.
 
 ## Requirements
+
+### Requirement: Canonical Exercise Dataset
+
+The system MUST load a canonical, single-source dataset of 233 calisthenics exercises backed exclusively by HD studio photography (`images: [0.jpg, 1.jpg]`).
+
+#### Scenario: All exercises possess HD dual-phase photography
+- GIVEN the initialized exercise repository
+- WHEN all exercises are inspected
+- THEN every exercise MUST contain valid `images` with at least 2 high-resolution photography URLs
+- AND `thumbnailUrl` MUST point to the first HD phase image
 
 ### Requirement: Filter and Search Exercises
 
 The system MUST allow users to filter exercises by target body part/muscle, equipment requirement (`all` | `floor-only` | `with-apparatus`), and search exercises by text query in real-time.
 
 #### Scenario: Filter by muscle group
-- GIVEN a catalog with 325 bodyweight exercises
+- GIVEN a catalog with 233 bodyweight exercises
 - WHEN the user selects the "chest" filter
 - THEN the system MUST display only exercises targeting the chest
 - AND the exercise count counter MUST update to reflect the filtered results
@@ -52,12 +62,6 @@ The system MUST display an interactive modal when an exercise is selected, featu
 - THEN the system MUST render the `CinemagraphViewer` in an aspect-ratio container
 - AND start playing the alternating loop between Starting Phase and Peak Contraction Phase
 - AND provide interactive controls to pause/play and manually switch phases
-
-#### Scenario: Graceful fallback when single image available
-- GIVEN an exercise with only one image frame or fallback GIF
-- WHEN the modal opens
-- THEN the system MUST display the available visual asset without breaking layout or throwing errors
-- AND disable multi-phase scrubbing controls gracefully
 
 #### Scenario: Close modal
 - GIVEN the modal is currently open

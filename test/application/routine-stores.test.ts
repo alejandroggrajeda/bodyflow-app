@@ -8,6 +8,8 @@ describe('Application Stores (Profile & Routine) — Strict TDD', () => {
   const sampleProfile: UserProfile = {
     age: 29,
     weight: 72,
+    targetWeight: 68,
+    weightUnit: 'kg',
     height: 174,
     sex: 'female',
     experience: 'intermediate',

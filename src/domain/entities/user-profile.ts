@@ -6,6 +6,7 @@ export type WeightUnit = 'lbs' | 'kg';
 export interface UserProfile {
   age: number; // 10–99
   weight: number; // in weightUnit (lbs: 44–660, kg: 20–300)
+  targetWeight: number; // in weightUnit (lbs: 44–660, kg: 20–300)
   weightUnit?: WeightUnit; // default 'lbs'
   height: number; // cm, 100–250
   sex: Sex;

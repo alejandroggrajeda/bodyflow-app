@@ -13,6 +13,8 @@ describe('RoutinesPage Integration (Strict TDD)', () => {
     profileSnapshot: {
       age: 30,
       weight: 70,
+      targetWeight: 68,
+      weightUnit: 'kg',
       height: 175,
       sex: 'male',
       experience: 'beginner',

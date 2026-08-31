@@ -8,6 +8,8 @@ describe('Storage Infrastructure (Strict TDD)', () => {
   const mockProfile: UserProfile = {
     age: 28,
     weight: 75,
+    targetWeight: 70,
+    weightUnit: 'kg',
     height: 178,
     sex: 'male',
     experience: 'intermediate',

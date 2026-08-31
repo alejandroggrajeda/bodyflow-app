@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useSavedRoutineStore } from '../../application/store/saved-routine-store.ts';
 import { useExerciseStore } from '../../application/store/exercise-store.ts';
 import { RoutineDaySection } from '../components/routine/RoutineDaySection.tsx';
+import { TimelineCard } from '../components/routine/TimelineCard.tsx';
 import rawExercises from '../../infrastructure/data/exercises.json';
 import { Exercise } from '../../domain/entities/exercise.ts';
 import {
@@ -165,6 +166,11 @@ export const RoutineDetailPage: React.FC = () => {
           </button>
         </div>
       </div>
+
+      {/* Weight Goal Timeline Projection */}
+      {routine.profileSnapshot?.targetWeight !== undefined && (
+        <TimelineCard profile={routine.profileSnapshot} />
+      )}
 
       {/* Routine Days List */}
       <div>

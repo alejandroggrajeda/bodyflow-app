@@ -10,6 +10,8 @@ describe('RoutineGeneratorService (Strict TDD & Spec Compliance)', () => {
   const beginnerProfile: UserProfile = {
     age: 30,
     weight: 70,
+    targetWeight: 68,
+    weightUnit: 'kg',
     height: 175,
     sex: 'male',
     experience: 'beginner',
@@ -18,6 +20,8 @@ describe('RoutineGeneratorService (Strict TDD & Spec Compliance)', () => {
   const intermediateProfile: UserProfile = {
     age: 25,
     weight: 80,
+    targetWeight: 75,
+    weightUnit: 'kg',
     height: 180,
     sex: 'female',
     experience: 'intermediate',
@@ -26,6 +30,8 @@ describe('RoutineGeneratorService (Strict TDD & Spec Compliance)', () => {
   const advancedProfile: UserProfile = {
     age: 35,
     weight: 85,
+    targetWeight: 82,
+    weightUnit: 'kg',
     height: 185,
     sex: 'other',
     experience: 'advanced',

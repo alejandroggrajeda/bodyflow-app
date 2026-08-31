@@ -8,7 +8,15 @@ import {
   calculateBMI,
   getBMICategory,
 } from '../../../domain/entities/user-profile.ts';
-import { Sparkles, CheckCircle2, Scale, Ruler, Calendar, Award } from 'lucide-react';
+import {
+  Sparkles,
+  CheckCircle2,
+  Scale,
+  Ruler,
+  Calendar,
+  Award,
+  Target,
+} from 'lucide-react';
 
 interface ProfileFormProps {
   initialProfile: UserProfile | null;
@@ -28,6 +36,9 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
   const [weight, setWeight] = useState<string>(
     initialProfile?.weight?.toString() || ''
   );
+  const [targetWeight, setTargetWeight] = useState<string>(
+    initialProfile?.targetWeight?.toString() || ''
+  );
   const [height, setHeight] = useState<string>(
     initialProfile?.height?.toString() || ''
   );
@@ -40,6 +51,7 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
 
   const numAge = parseInt(age, 10);
   const numWeight = parseFloat(weight);
+  const numTargetWeight = parseFloat(targetWeight);
   const numHeight = parseFloat(height);
 
   const minWeight = weightUnit === 'lbs' ? 44 : 20;
@@ -52,6 +64,9 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
     !isNaN(numWeight) &&
     numWeight >= minWeight &&
     numWeight <= maxWeight &&
+    !isNaN(numTargetWeight) &&
+    numTargetWeight >= minWeight &&
+    numTargetWeight <= maxWeight &&
     !isNaN(numHeight) &&
     numHeight >= 100 &&
     numHeight <= 250;
@@ -69,11 +84,20 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
       const converted = convertWeight(parseFloat(weight), weightUnit, unit);
       setWeight(converted.toString());
     }
+    if (targetWeight && !isNaN(parseFloat(targetWeight))) {
+      const convertedTarget = convertWeight(
+        parseFloat(targetWeight),
+        weightUnit,
+        unit
+      );
+      setTargetWeight(convertedTarget.toString());
+    }
     setWeightUnit(unit);
-    // Clear weight error on switch
+    // Clear weight errors on switch
     setErrors((prev) => {
       const copy = { ...prev };
       delete copy.weight;
+      delete copy.targetWeight;
       return copy;
     });
   };
@@ -86,6 +110,13 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
     if (isNaN(numWeight) || numWeight < minWeight || numWeight > maxWeight) {
       newErrors.weight = `Peso válido entre ${minWeight} y ${maxWeight} ${weightUnit}`;
     }
+    if (
+      isNaN(numTargetWeight) ||
+      numTargetWeight < minWeight ||
+      numTargetWeight > maxWeight
+    ) {
+      newErrors.targetWeight = `Peso objetivo válido entre ${minWeight} y ${maxWeight} ${weightUnit}`;
+    }
     if (isNaN(numHeight) || numHeight < 100 || numHeight > 250) {
       newErrors.height = 'Altura válida entre 100 y 250 cm';
     }
@@ -96,6 +127,7 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
   const getProfileData = (): UserProfile => ({
     age: numAge,
     weight: numWeight,
+    targetWeight: numTargetWeight,
     weightUnit,
     height: numHeight,
     sex,
@@ -120,8 +152,8 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6 max-w-xl mx-auto">
-      {/* Age, Weight, Height Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {/* Metrics Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Age */}
         <div>
           <label
@@ -148,7 +180,7 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
           )}
         </div>
 
-        {/* Weight with Unit Switch */}
+        {/* Current Weight */}
         <div>
           <div className="flex items-center justify-between mb-2">
             <label
@@ -156,7 +188,7 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
               className="text-xs font-semibold text-zinc-300 uppercase tracking-wider flex items-center gap-1.5"
             >
               <Scale className="w-3.5 h-3.5 text-emerald-400" />
-              Peso ({weightUnit})
+              Actual ({weightUnit})
             </label>
 
             {/* lbs / kg Switcher */}
@@ -192,7 +224,7 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
             step="0.1"
             min={minWeight}
             max={maxWeight}
-            placeholder={weightUnit === 'lbs' ? 'ej. 165' : 'ej. 75.5'}
+            placeholder={weightUnit === 'lbs' ? 'ej. 165' : 'ej. 75'}
             value={weight}
             onChange={(e) => setWeight(e.target.value)}
             className={`w-full min-h-[44px] px-3.5 py-2.5 rounded-xl bg-zinc-900 border text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 transition-colors ${
@@ -201,6 +233,35 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
           />
           {errors.weight && (
             <p className="text-red-400 text-xs mt-1.5">{errors.weight}</p>
+          )}
+        </div>
+
+        {/* Target Weight */}
+        <div>
+          <label
+            htmlFor="profile-target-weight"
+            className="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-2 flex items-center gap-1.5"
+          >
+            <Target className="w-3.5 h-3.5 text-emerald-400" />
+            Objetivo ({weightUnit})
+          </label>
+          <input
+            id="profile-target-weight"
+            type="number"
+            step="0.1"
+            min={minWeight}
+            max={maxWeight}
+            placeholder={weightUnit === 'lbs' ? 'ej. 155' : 'ej. 70'}
+            value={targetWeight}
+            onChange={(e) => setTargetWeight(e.target.value)}
+            className={`w-full min-h-[44px] px-3.5 py-2.5 rounded-xl bg-zinc-900 border text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 transition-colors ${
+              errors.targetWeight ? 'border-red-500/80' : 'border-zinc-800'
+            }`}
+          />
+          {errors.targetWeight && (
+            <p className="text-red-400 text-xs mt-1.5">
+              {errors.targetWeight}
+            </p>
           )}
         </div>
 
@@ -235,7 +296,7 @@ export const ProfileForm: React.FC<ProfileFormProps> = ({
       {currentBMI !== null && (
         <div className="p-3.5 rounded-2xl bg-zinc-900/90 border border-zinc-800 flex items-center justify-between">
           <span className="text-xs text-zinc-400 font-medium">
-            Índice de Masa Corporal (IMC):
+            Índice de Masa Corporal (IMC) Actual:
           </span>
           <div className="flex items-center gap-2">
             <span className="text-sm font-bold text-zinc-100 font-mono">

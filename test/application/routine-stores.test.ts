@@ -70,7 +70,7 @@ describe('Application Stores (Profile & Routine) — Strict TDD', () => {
     });
 
     it('saves a routine and retrieves it in the list', () => {
-      const { saveRoutine, routines } = useSavedRoutineStore.getState();
+      const { saveRoutine } = useSavedRoutineStore.getState();
       const result = saveRoutine(sampleRoutine);
       expect(result.success).toBe(true);
 

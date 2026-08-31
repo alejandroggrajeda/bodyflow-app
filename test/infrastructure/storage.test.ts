@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import { ProfileStorage } from '../../src/infrastructure/storage/profile-storage.ts';
 import { RoutineStorage } from '../../src/infrastructure/storage/routine-storage.ts';
 import { UserProfile } from '../../src/domain/entities/user-profile.ts';

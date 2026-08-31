@@ -46,22 +46,22 @@ Chain strategy: stacked-to-main
 
 ## Phase 3: UI Integration — Pages, Components & Routing
 
-- [ ] 3.1 Install `react-router-dom` via `pnpm add react-router-dom`
-- [ ] 3.2 Create `src/ui/components/navigation/BottomNav.tsx` — 3 tabs (Catalog / Routines / Profile), 44px touch target, fixed bottom, `pb-safe` padding
-- [ ] 3.3 Create `src/ui/components/profile/ProfileForm.tsx` — presentational form: age, weight, height, sex select, experience select; field-level validation; disabled submit when profile incomplete
-- [ ] 3.4 Create `src/ui/pages/ProfilePage.tsx` — container: loads profile-store, renders ProfileForm, "Generate Routine" button calling `generateRoutine` + navigate to detail
-- [ ] 3.5 Create `src/ui/components/routine/RoutineCard.tsx` — presentational: routine name, creation date, day count, delete button with confirm dialog
-- [ ] 3.6 Create `src/ui/components/routine/RoutineDaySection.tsx` — presentational: collapsible day with exercise list; each exercise taps → `exercise-store.openExerciseDetail(id)` (reuses existing modal)
-- [ ] 3.7 Create `src/ui/pages/RoutinesPage.tsx` — container: saved routines list with empty state CTA
-- [ ] 3.8 Create `src/ui/pages/RoutineDetailPage.tsx` — container: renders `RoutineDaySection` per day; "Save Routine" button with name input + duplicate guard
-- [ ] 3.9 Modify `src/App.tsx` — wrap with `<BrowserRouter>`, add `<Routes>` for `/` (catalog), `/routines`, `/profile`, `/routines/:id`; render `<BottomNav>` and `<ExerciseModal>` outside routes
+- [x] 3.1 Install `react-router-dom` via `pnpm add react-router-dom`
+- [x] 3.2 Create `src/ui/components/navigation/BottomNav.tsx` — 3 tabs (Catalog / Routines / Profile), 44px touch target, fixed bottom, `pb-safe` padding
+- [x] 3.3 Create `src/ui/components/profile/ProfileForm.tsx` — presentational form: age, weight, height, sex select, experience select; field-level validation; disabled submit when profile incomplete
+- [x] 3.4 Create `src/ui/pages/ProfilePage.tsx` — container: loads profile-store, renders ProfileForm, "Generate Routine" button calling `generateRoutine` + navigate to detail
+- [x] 3.5 Create `src/ui/components/routine/RoutineCard.tsx` — presentational: routine name, creation date, day count, delete button with confirm dialog
+- [x] 3.6 Create `src/ui/components/routine/RoutineDaySection.tsx` — presentational: collapsible day with exercise list; each exercise taps → `exercise-store.openExerciseDetail(id)` (reuses existing modal)
+- [x] 3.7 Create `src/ui/pages/RoutinesPage.tsx` — container: saved routines list with empty state CTA
+- [x] 3.8 Create `src/ui/pages/RoutineDetailPage.tsx` — container: renders `RoutineDaySection` per day; "Save Routine" button with name input + duplicate guard
+- [x] 3.9 Modify `src/App.tsx` — wrap with `<BrowserRouter>`, add `<Routes>` for `/` (catalog), `/routines`, `/profile`, `/routines/:id`; render `<BottomNav>` and `<ExerciseModal>` outside routes
 
 ## Phase 4: Testing
 
-- [ ] 4.1 Create `test/domain/routine-generator.test.ts` — test: beginner→3 days, intermediate→4, advanced→5; correct split assignment; min 3 exercises/day; backfill on sparse group; volume per level; determinism (same profile called twice)
-- [ ] 4.2 Create `test/application/profile-store.test.ts` — test: save persists to localStorage, load restores, clear removes key, reload after save returns saved values
-- [ ] 4.3 Create `test/application/saved-routine-store.test.ts` — test: save adds entry, cap at 10 throws/warns, duplicate name triggers confirm, delete removes entry, list ordered by createdAt desc
-- [ ] 4.4 Create `test/ui/profile-page.test.tsx` — test: invalid field shows error, valid submit calls saveProfile, generate button disabled without profile
-- [ ] 4.5 Create `test/ui/routines-page.test.tsx` — test: empty state renders CTA, list renders routine cards, delete confirm flow
-- [ ] 4.6 Run `pnpm test` — all tests must pass (coverage ≥ 80%)
-- [ ] 4.7 Run `pnpm run build` — zero TypeScript errors, clean production bundle
+- [x] 4.1 Create `test/domain/routine-generator.test.ts` — test: beginner→3 days, intermediate→4, advanced→5; correct split assignment; min 3 exercises/day; backfill on sparse group; volume per level; determinism (same profile called twice)
+- [x] 4.2 Create `test/application/profile-store.test.ts` & `routine-stores.test.ts` — test: save persists to localStorage, load restores, clear removes key, reload after save returns saved values
+- [x] 4.3 Create `test/application/saved-routine-store.test.ts` & `routine-stores.test.ts` — test: save adds entry, cap at 10 throws/warns, duplicate name triggers confirm, delete removes entry, list ordered by createdAt desc
+- [x] 4.4 Create `test/ui/profile-page.test.tsx` — test: invalid field shows error, valid submit calls saveProfile, generate button disabled without profile
+- [x] 4.5 Create `test/ui/routines-page.test.tsx` — test: empty state renders CTA, list renders routine cards, delete confirm flow
+- [x] 4.6 Run `pnpm test` — all tests must pass (coverage ≥ 80%)
+- [x] 4.7 Run `pnpm run build` — zero TypeScript errors, clean production bundle
